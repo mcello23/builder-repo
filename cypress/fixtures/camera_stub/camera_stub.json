@@ -1,0 +1,20 @@
+{
+    "version": 1,
+    "operationId": "c52fa80a-0e1d-49ce-89e1-ece15dd11e6f",
+    "sessionId": "7d456133-a555-4b99-96f9-7cfc39232a28",
+    "tenantId": "ecdea81a-84c2-4810-9db9-e377bf131e6a",
+    "source": "efa9ae93-87df-4407-a2f6-cd855d0e9088",
+    "family": "ONBOARDING",
+    "events": [
+      {
+        "eventId": "301523c2-06a3-4c1b-889f-62e50bc7ba31",
+        "clientTimestamp": 1717516283089,
+        "payload": {
+          "type": "ONBOARDING",
+          "screen": "SELPHID_WIDGET",
+          "event": "STEP_CHANGE",
+          "value": "SELPHID_WIDGET"
+        }
+      }
+    ]
+  }

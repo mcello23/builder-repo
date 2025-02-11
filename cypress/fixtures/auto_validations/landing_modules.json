@@ -1,0 +1,244 @@
+[
+  {
+    "active": true,
+    "valid": true,
+    "values": {
+      "client": "543eb3df-4268-4d03-b95a-ddf8d4c04316",
+      "tenant": "ecdea81a-84c2-4810-9db9-e377bf131e6a",
+      "platformVersion": "v3"
+    },
+    "created_at": "2024-08-13T15:49:09.753328+00:00",
+    "updated_at": "2024-08-13T15:49:09.753328+00:00",
+    "id": "44c4795a-df74-416f-8ca2-25321db6ee64",
+    "landing_id": "af114af9-075c-4e87-8bf7-dff2694f95c7",
+    "module_id": "2fe2348f-c464-4b6d-817b-a2492cb8cbc1",
+    "user_id": "8e0966d3-9f0e-4e4f-b784-9bfc802079df"
+  },
+  {
+    "active": true,
+    "valid": true,
+    "values": {
+      "client": "543eb3df-4268-4d03-b95a-ddf8d4c04316",
+      "tenant": "ecdea81a-84c2-4810-9db9-e377bf131e6a",
+      "platformVersion": "v3"
+    },
+    "created_at": "2024-08-13T15:53:29.258961+00:00",
+    "updated_at": "2024-08-13T15:53:29.258961+00:00",
+    "id": "8f4246b2-bfa5-41c9-b912-17c69db649d0",
+    "landing_id": "6ded53e8-9f7b-4e0b-819a-2710857e4277",
+    "module_id": "2fe2348f-c464-4b6d-817b-a2492cb8cbc1",
+    "user_id": "8e0966d3-9f0e-4e4f-b784-9bfc802079df"
+  },
+  {
+    "active": true,
+    "valid": true,
+    "values": {
+      "client": "543eb3df-4268-4d03-b95a-ddf8d4c04316",
+      "tenant": "ecdea81a-84c2-4810-9db9-e377bf131e6a",
+      "platformVersion": "v3"
+    },
+    "created_at": "2024-08-13T15:55:45.035144+00:00",
+    "updated_at": "2024-08-13T15:55:45.035144+00:00",
+    "id": "e0d53558-47b5-48b6-96a8-0d4226df88ef",
+    "landing_id": "d8d5ce27-703d-4fdc-be45-6aadfdea1006",
+    "module_id": "2fe2348f-c464-4b6d-817b-a2492cb8cbc1",
+    "user_id": "8e0966d3-9f0e-4e4f-b784-9bfc802079df"
+  },
+  {
+    "active": true,
+    "valid": true,
+    "values": {
+      "client": "543eb3df-4268-4d03-b95a-ddf8d4c04316",
+      "tenant": "ecdea81a-84c2-4810-9db9-e377bf131e6a",
+      "platformVersion": "v3"
+    },
+    "created_at": "2024-08-13T15:57:28.015814+00:00",
+    "updated_at": "2024-08-13T15:57:28.015814+00:00",
+    "id": "045618e6-f651-4836-b362-6ea9d004bffd",
+    "landing_id": "a006c259-0656-4776-9ecd-f5c043152dd1",
+    "module_id": "2fe2348f-c464-4b6d-817b-a2492cb8cbc1",
+    "user_id": "8e0966d3-9f0e-4e4f-b784-9bfc802079df"
+  },
+  {
+    "active": true,
+    "valid": true,
+    "values": {
+      "client": "543eb3df-4268-4d03-b95a-ddf8d4c04316",
+      "tenant": "ecdea81a-84c2-4810-9db9-e377bf131e6a",
+      "platformVersion": "v3"
+    },
+    "created_at": "2024-08-13T15:59:18.535293+00:00",
+    "updated_at": "2024-08-13T15:59:18.535293+00:00",
+    "id": "a32ecd89-266b-42c7-bb28-4b60eed8a3ba",
+    "landing_id": "0139f663-c014-4a28-b293-d077c4648d51",
+    "module_id": "2fe2348f-c464-4b6d-817b-a2492cb8cbc1",
+    "user_id": "8e0966d3-9f0e-4e4f-b784-9bfc802079df"
+  },
+  {
+    "active": true,
+    "valid": true,
+    "values": {
+      "client": "543eb3df-4268-4d03-b95a-ddf8d4c04316",
+      "tenant": "ecdea81a-84c2-4810-9db9-e377bf131e6a",
+      "platformVersion": "v3"
+    },
+    "created_at": "2024-08-13T16:00:33.359905+00:00",
+    "updated_at": "2024-08-13T16:00:33.359905+00:00",
+    "id": "b49ea750-00cb-4280-97a6-03fbff7049ae",
+    "landing_id": "11d18344-a80f-4199-8dd8-301f6b07c375",
+    "module_id": "2fe2348f-c464-4b6d-817b-a2492cb8cbc1",
+    "user_id": "8e0966d3-9f0e-4e4f-b784-9bfc802079df"
+  },
+  {
+    "active": true,
+    "valid": true,
+    "values": {
+      "client": "543eb3df-4268-4d03-b95a-ddf8d4c04316",
+      "tenant": "bab1fc99-df84-4239-9998-957039d515b4",
+      "platformVersion": "v3"
+    },
+    "created_at": "2024-08-14T14:30:17.63723+00:00",
+    "updated_at": "2025-01-16T13:25:50.396111+00:00",
+    "id": "4d83b82a-4123-4fb5-9f7a-b757088582b8",
+    "landing_id": "46ecf99e-1915-4a70-87f8-8fbdebcb5c69",
+    "module_id": "2fe2348f-c464-4b6d-817b-a2492cb8cbc1",
+    "user_id": "8e0966d3-9f0e-4e4f-b784-9bfc802079df"
+  },
+  {
+    "active": true,
+    "valid": true,
+    "values": {
+      "client": "543eb3df-4268-4d03-b95a-ddf8d4c04316",
+      "tenant": "bab1fc99-df84-4239-9998-957039d515b4",
+      "platformVersion": "v3"
+    },
+    "created_at": "2024-08-14T14:31:32.495231+00:00",
+    "updated_at": "2025-01-16T13:34:12.529571+00:00",
+    "id": "a4b1e536-eded-4e09-9264-8049d12122a9",
+    "landing_id": "304c53be-eb6f-4e0f-92a7-5f1af540175b",
+    "module_id": "2fe2348f-c464-4b6d-817b-a2492cb8cbc1",
+    "user_id": "8e0966d3-9f0e-4e4f-b784-9bfc802079df"
+  },
+  {
+    "active": true,
+    "valid": true,
+    "values": {
+      "client": "543eb3df-4268-4d03-b95a-ddf8d4c04316",
+      "tenant": "bab1fc99-df84-4239-9998-957039d515b4",
+      "platformVersion": "v3"
+    },
+    "created_at": "2024-08-15T10:13:13.810128+00:00",
+    "updated_at": "2024-08-15T10:13:13.810128+00:00",
+    "id": "edef8038-bcb3-4369-97ca-f185fbdbe994",
+    "landing_id": "d40e81f8-211a-47c5-beb6-504940b5e493",
+    "module_id": "2fe2348f-c464-4b6d-817b-a2492cb8cbc1",
+    "user_id": "8e0966d3-9f0e-4e4f-b784-9bfc802079df"
+  },
+  {
+    "active": true,
+    "valid": true,
+    "values": {
+      "client": "543eb3df-4268-4d03-b95a-ddf8d4c04316",
+      "tenant": "bab1fc99-df84-4239-9998-957039d515b4",
+      "platformVersion": "v3"
+    },
+    "created_at": "2024-09-23T13:33:43.867566+00:00",
+    "updated_at": "2024-09-23T13:33:43.867566+00:00",
+    "id": "4f2239ec-ba09-4471-804a-848c7bab0eb0",
+    "landing_id": "c94d46d8-8610-4a3b-8f43-f878ea348776",
+    "module_id": "2fe2348f-c464-4b6d-817b-a2492cb8cbc1",
+    "user_id": "8e0966d3-9f0e-4e4f-b784-9bfc802079df"
+  },
+  {
+    "active": true,
+    "valid": true,
+    "values": {
+      "oauth": {
+        "active": false
+      },
+      "callbackUrl": "https://demo.landing.identity-platform.dev/api/callback",
+      "callbackHeader": []
+    },
+    "created_at": "2024-11-29T07:38:55.171962+00:00",
+    "updated_at": "2024-11-29T07:38:55.171962+00:00",
+    "id": "f52fd7c7-5ff0-45be-9f06-1dd4b02d5ca2",
+    "landing_id": "810b3b5d-e4bd-4559-82c4-dab721080f8b",
+    "module_id": "f785487c-9c42-4652-8324-4562c44d5341",
+    "user_id": "8e0966d3-9f0e-4e4f-b784-9bfc802079df"
+  },
+  {
+    "active": true,
+    "valid": true,
+    "values": {
+      "client": "543eb3df-4268-4d03-b95a-ddf8d4c04316",
+      "tenant": "bab1fc99-df84-4239-9998-957039d515b4",
+      "platformVersion": "v3"
+    },
+    "created_at": "2025-01-16T13:43:42.80968+00:00",
+    "updated_at": "2025-01-16T13:44:11.676212+00:00",
+    "id": "15e7cdb5-1cbe-4d82-843c-7e09a3aee89a",
+    "landing_id": "a98c564e-a9d0-4747-8c93-fe208319596b",
+    "module_id": "2fe2348f-c464-4b6d-817b-a2492cb8cbc1",
+    "user_id": "8e0966d3-9f0e-4e4f-b784-9bfc802079df"
+  },
+  {
+    "active": true,
+    "valid": true,
+    "values": {
+      "client": "543eb3df-4268-4d03-b95a-ddf8d4c04316",
+      "tenant": "bab1fc99-df84-4239-9998-957039d515b4",
+      "platformVersion": "v3"
+    },
+    "created_at": "2025-01-17T08:27:47.949156+00:00",
+    "updated_at": "2025-01-17T08:29:08.420455+00:00",
+    "id": "d7eb1fb6-a092-4b35-8513-06cd31f19ddc",
+    "landing_id": "3f351ef5-3ef2-46de-9788-3f4f27ac7f84",
+    "module_id": "2fe2348f-c464-4b6d-817b-a2492cb8cbc1",
+    "user_id": "8e0966d3-9f0e-4e4f-b784-9bfc802079df"
+  },
+  {
+    "active": true,
+    "valid": true,
+    "values": {
+      "client": "543eb3df-4268-4d03-b95a-ddf8d4c04316",
+      "tenant": "bab1fc99-df84-4239-9998-957039d515b4",
+      "platformVersion": "v3"
+    },
+    "created_at": "2025-02-06T16:22:04.703602+00:00",
+    "updated_at": "2025-02-06T16:22:04.704188+00:00",
+    "id": "dbbccd17-a60a-42f4-9164-1b87b7648f18",
+    "landing_id": "88afbc38-af8e-48b6-878f-ea65c914c989",
+    "module_id": "2fe2348f-c464-4b6d-817b-a2492cb8cbc1",
+    "user_id": "7fccecb0-4c61-4837-9365-70a7e0c9bf4f"
+  },
+  {
+    "active": true,
+    "valid": true,
+    "values": {
+      "client": "543eb3df-4268-4d03-b95a-ddf8d4c04316",
+      "tenant": "bab1fc99-df84-4239-9998-957039d515b4",
+      "platformVersion": "v3"
+    },
+    "created_at": "2025-02-05T14:55:47.889688+00:00",
+    "updated_at": "2025-02-05T14:55:47.889688+00:00",
+    "id": "f870af70-e810-46e2-a5d6-de2b6015d466",
+    "landing_id": "2eef6df9-a187-4952-a24e-cc0f8c8f5e4b",
+    "module_id": "2fe2348f-c464-4b6d-817b-a2492cb8cbc1",
+    "user_id": "8e0966d3-9f0e-4e4f-b784-9bfc802079df"
+  },
+  {
+    "active": true,
+    "valid": true,
+    "values": {
+      "client": "543eb3df-4268-4d03-b95a-ddf8d4c04316",
+      "tenant": "bab1fc99-df84-4239-9998-957039d515b4",
+      "platformVersion": "v3"
+    },
+    "created_at": "2025-02-10T08:14:39.685635+00:00",
+    "updated_at": "2025-02-10T08:14:39.685635+00:00",
+    "id": "f17eabfc-663a-4ce8-ae7e-c4e5eae00833",
+    "landing_id": "a97164f3-21ce-496f-b4ee-c60f60bf4745",
+    "module_id": "2fe2348f-c464-4b6d-817b-a2492cb8cbc1",
+    "user_id": "8e0966d3-9f0e-4e4f-b784-9bfc802079df"
+  }
+]

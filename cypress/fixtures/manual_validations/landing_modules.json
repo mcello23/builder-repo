@@ -1,0 +1,322 @@
+[
+  {
+    "active": true,
+    "valid": true,
+    "values": {
+      "oauth": {
+        "active": false
+      },
+      "callbackUrl": "https://demo.landing.identity-platform.dev/api/callback",
+      "callbackHeader": []
+    },
+    "created_at": "2024-10-10T08:37:25.513729+00:00",
+    "updated_at": "2024-10-10T08:37:25.513729+00:00",
+    "id": "6041d861-09c6-4fd8-b8e7-d3e6fee1cf40",
+    "landing_id": "d8d5ce27-703d-4fdc-be45-6aadfdea1006",
+    "module_id": "f785487c-9c42-4652-8324-4562c44d5341",
+    "user_id": "8e0966d3-9f0e-4e4f-b784-9bfc802079df"
+  },
+  {
+    "active": true,
+    "valid": true,
+    "values": {
+      "oauth": {
+        "active": false
+      },
+      "callbackUrl": "https://demo.landing.identity-platform.dev/api/callback",
+      "callbackHeader": []
+    },
+    "created_at": "2024-10-10T08:37:55.635476+00:00",
+    "updated_at": "2024-10-10T08:37:55.635476+00:00",
+    "id": "70ef2dff-7ad7-4217-b671-50709dab6e6b",
+    "landing_id": "c94d46d8-8610-4a3b-8f43-f878ea348776",
+    "module_id": "f785487c-9c42-4652-8324-4562c44d5341",
+    "user_id": "8e0966d3-9f0e-4e4f-b784-9bfc802079df"
+  },
+  {
+    "active": true,
+    "valid": true,
+    "values": {
+      "oauth": {
+        "active": false
+      },
+      "callbackUrl": "https://demo.landing.identity-platform.dev/api/callback",
+      "callbackHeader": []
+    },
+    "created_at": "2024-10-10T08:41:32.368608+00:00",
+    "updated_at": "2024-10-10T08:41:32.368608+00:00",
+    "id": "45ab7819-8a26-4085-be14-2e17aa8ca75f",
+    "landing_id": "d902d9dd-78f9-49c5-a92d-b9e3533a9c92",
+    "module_id": "f785487c-9c42-4652-8324-4562c44d5341",
+    "user_id": "8e0966d3-9f0e-4e4f-b784-9bfc802079df"
+  },
+  {
+    "active": true,
+    "valid": true,
+    "values": {
+      "client": "543eb3df-4268-4d03-b95a-ddf8d4c04316",
+      "tenant": "bab1fc99-df84-4239-9998-957039d515b4",
+      "platformVersion": "v3"
+    },
+    "created_at": "2024-10-10T08:43:08.93702+00:00",
+    "updated_at": "2024-10-10T08:43:08.93702+00:00",
+    "id": "a48eeb74-a2d0-481b-b179-0caf7114e49c",
+    "landing_id": "828dff13-0d33-4a89-9b2b-0209cb0a841b",
+    "module_id": "2fe2348f-c464-4b6d-817b-a2492cb8cbc1",
+    "user_id": "8e0966d3-9f0e-4e4f-b784-9bfc802079df"
+  },
+  {
+    "active": true,
+    "valid": true,
+    "values": {
+      "client": "543eb3df-4268-4d03-b95a-ddf8d4c04316",
+      "tenant": "bab1fc99-df84-4239-9998-957039d515b4",
+      "platformVersion": "v3"
+    },
+    "created_at": "2024-10-10T08:37:25.511315+00:00",
+    "updated_at": "2024-10-10T08:37:25.511315+00:00",
+    "id": "a8f247a9-73bf-406e-a494-bd24617c386a",
+    "landing_id": "d8d5ce27-703d-4fdc-be45-6aadfdea1006",
+    "module_id": "2fe2348f-c464-4b6d-817b-a2492cb8cbc1",
+    "user_id": "8e0966d3-9f0e-4e4f-b784-9bfc802079df"
+  },
+  {
+    "active": true,
+    "valid": true,
+    "values": {
+      "client": "543eb3df-4268-4d03-b95a-ddf8d4c04316",
+      "tenant": "bab1fc99-df84-4239-9998-957039d515b4",
+      "platformVersion": "v3"
+    },
+    "created_at": "2024-10-10T08:37:55.635618+00:00",
+    "updated_at": "2024-10-10T08:37:55.635618+00:00",
+    "id": "0677e25e-6b79-415a-a5bc-1e3bd5e85213",
+    "landing_id": "c94d46d8-8610-4a3b-8f43-f878ea348776",
+    "module_id": "2fe2348f-c464-4b6d-817b-a2492cb8cbc1",
+    "user_id": "8e0966d3-9f0e-4e4f-b784-9bfc802079df"
+  },
+  {
+    "active": true,
+    "valid": true,
+    "values": {
+      "client": "543eb3df-4268-4d03-b95a-ddf8d4c04316",
+      "tenant": "bab1fc99-df84-4239-9998-957039d515b4",
+      "platformVersion": "v3"
+    },
+    "created_at": "2024-10-10T08:38:14.340579+00:00",
+    "updated_at": "2024-10-10T08:38:14.340579+00:00",
+    "id": "37271a11-c5cf-48a7-9fd5-6d778fa14461",
+    "landing_id": "d40e81f8-211a-47c5-beb6-504940b5e493",
+    "module_id": "2fe2348f-c464-4b6d-817b-a2492cb8cbc1",
+    "user_id": "8e0966d3-9f0e-4e4f-b784-9bfc802079df"
+  },
+  {
+    "active": true,
+    "valid": true,
+    "values": {
+      "oauth": {
+        "active": false
+      },
+      "callbackUrl": "https://demo.landing.identity-platform.dev/api/callback",
+      "callbackHeader": []
+    },
+    "created_at": "2024-10-10T08:38:14.339309+00:00",
+    "updated_at": "2024-10-10T08:38:14.339309+00:00",
+    "id": "bac1ffb5-fed8-4503-8cd3-83b5b4a07a62",
+    "landing_id": "d40e81f8-211a-47c5-beb6-504940b5e493",
+    "module_id": "f785487c-9c42-4652-8324-4562c44d5341",
+    "user_id": "8e0966d3-9f0e-4e4f-b784-9bfc802079df"
+  },
+  {
+    "active": true,
+    "valid": true,
+    "values": {
+      "oauth": {
+        "active": false
+      },
+      "callbackUrl": "https://demo.landing.identity-platform.dev/api/callback",
+      "callbackHeader": []
+    },
+    "created_at": "2024-10-10T08:38:28.539519+00:00",
+    "updated_at": "2024-10-10T08:38:28.539519+00:00",
+    "id": "32a981b2-a5f2-460c-9748-eae974ccd4c8",
+    "landing_id": "11d18344-a80f-4199-8dd8-301f6b07c375",
+    "module_id": "f785487c-9c42-4652-8324-4562c44d5341",
+    "user_id": "8e0966d3-9f0e-4e4f-b784-9bfc802079df"
+  },
+  {
+    "active": true,
+    "valid": true,
+    "values": {
+      "client": "543eb3df-4268-4d03-b95a-ddf8d4c04316",
+      "tenant": "bab1fc99-df84-4239-9998-957039d515b4",
+      "platformVersion": "v3"
+    },
+    "created_at": "2024-10-10T08:38:28.539693+00:00",
+    "updated_at": "2024-10-10T08:38:28.539693+00:00",
+    "id": "e01bfe3b-da66-4023-ab6f-4e029fe8550e",
+    "landing_id": "11d18344-a80f-4199-8dd8-301f6b07c375",
+    "module_id": "2fe2348f-c464-4b6d-817b-a2492cb8cbc1",
+    "user_id": "8e0966d3-9f0e-4e4f-b784-9bfc802079df"
+  },
+  {
+    "active": true,
+    "valid": true,
+    "values": {
+      "client": "543eb3df-4268-4d03-b95a-ddf8d4c04316",
+      "tenant": "bab1fc99-df84-4239-9998-957039d515b4",
+      "platformVersion": "v3"
+    },
+    "created_at": "2024-10-10T08:38:42.589468+00:00",
+    "updated_at": "2024-10-10T08:38:42.589468+00:00",
+    "id": "e5c9063d-1001-4907-af71-ba2bfffe9ce5",
+    "landing_id": "0139f663-c014-4a28-b293-d077c4648d51",
+    "module_id": "2fe2348f-c464-4b6d-817b-a2492cb8cbc1",
+    "user_id": "8e0966d3-9f0e-4e4f-b784-9bfc802079df"
+  },
+  {
+    "active": true,
+    "valid": true,
+    "values": {
+      "oauth": {
+        "active": false
+      },
+      "callbackUrl": "https://demo.landing.identity-platform.dev/api/callback",
+      "callbackHeader": []
+    },
+    "created_at": "2024-10-10T08:38:42.592588+00:00",
+    "updated_at": "2024-10-10T08:38:42.592588+00:00",
+    "id": "eb8bc597-f21c-40b3-a388-34604c925018",
+    "landing_id": "0139f663-c014-4a28-b293-d077c4648d51",
+    "module_id": "f785487c-9c42-4652-8324-4562c44d5341",
+    "user_id": "8e0966d3-9f0e-4e4f-b784-9bfc802079df"
+  },
+  {
+    "active": true,
+    "valid": true,
+    "values": {
+      "client": "543eb3df-4268-4d03-b95a-ddf8d4c04316",
+      "tenant": "bab1fc99-df84-4239-9998-957039d515b4",
+      "platformVersion": "v3"
+    },
+    "created_at": "2024-10-10T08:38:56.310571+00:00",
+    "updated_at": "2024-10-10T08:38:56.310571+00:00",
+    "id": "233114e0-8409-4dad-98d3-df25b8693a00",
+    "landing_id": "a006c259-0656-4776-9ecd-f5c043152dd1",
+    "module_id": "2fe2348f-c464-4b6d-817b-a2492cb8cbc1",
+    "user_id": "8e0966d3-9f0e-4e4f-b784-9bfc802079df"
+  },
+  {
+    "active": true,
+    "valid": true,
+    "values": {
+      "oauth": {
+        "active": false
+      },
+      "callbackUrl": "https://demo.landing.identity-platform.dev/api/callback",
+      "callbackHeader": []
+    },
+    "created_at": "2024-10-10T08:38:56.310234+00:00",
+    "updated_at": "2024-10-10T08:38:56.310234+00:00",
+    "id": "ffb5ebb6-c758-4c3c-bf7e-37b8c9231cba",
+    "landing_id": "a006c259-0656-4776-9ecd-f5c043152dd1",
+    "module_id": "f785487c-9c42-4652-8324-4562c44d5341",
+    "user_id": "8e0966d3-9f0e-4e4f-b784-9bfc802079df"
+  },
+  {
+    "active": true,
+    "valid": true,
+    "values": {
+      "client": "543eb3df-4268-4d03-b95a-ddf8d4c04316",
+      "tenant": "bab1fc99-df84-4239-9998-957039d515b4",
+      "platformVersion": "v3"
+    },
+    "created_at": "2024-10-10T08:41:05.083792+00:00",
+    "updated_at": "2024-10-10T08:41:05.083792+00:00",
+    "id": "0141c30a-cc49-41b5-9393-cef6e3134d4f",
+    "landing_id": "6ded53e8-9f7b-4e0b-819a-2710857e4277",
+    "module_id": "2fe2348f-c464-4b6d-817b-a2492cb8cbc1",
+    "user_id": "8e0966d3-9f0e-4e4f-b784-9bfc802079df"
+  },
+  {
+    "active": true,
+    "valid": true,
+    "values": {
+      "oauth": {
+        "active": false
+      },
+      "callbackUrl": "https://demo.landing.identity-platform.dev/api/callback",
+      "callbackHeader": []
+    },
+    "created_at": "2024-10-10T08:41:05.086422+00:00",
+    "updated_at": "2024-10-10T08:41:05.086422+00:00",
+    "id": "df1045fc-6622-4787-a2bc-1d10dfb9b702",
+    "landing_id": "6ded53e8-9f7b-4e0b-819a-2710857e4277",
+    "module_id": "f785487c-9c42-4652-8324-4562c44d5341",
+    "user_id": "8e0966d3-9f0e-4e4f-b784-9bfc802079df"
+  },
+  {
+    "active": true,
+    "valid": true,
+    "values": {
+      "client": "543eb3df-4268-4d03-b95a-ddf8d4c04316",
+      "tenant": "bab1fc99-df84-4239-9998-957039d515b4",
+      "platformVersion": "v3"
+    },
+    "created_at": "2024-10-10T08:41:32.36906+00:00",
+    "updated_at": "2024-10-10T08:41:32.36906+00:00",
+    "id": "4fc32d12-7df6-4844-ae1a-5eaf95d3fcde",
+    "landing_id": "d902d9dd-78f9-49c5-a92d-b9e3533a9c92",
+    "module_id": "2fe2348f-c464-4b6d-817b-a2492cb8cbc1",
+    "user_id": "8e0966d3-9f0e-4e4f-b784-9bfc802079df"
+  },
+  {
+    "active": true,
+    "valid": true,
+    "values": {
+      "oauth": {
+        "active": false
+      },
+      "callbackUrl": "https://demo.landing.identity-platform.dev/api/callback",
+      "callbackHeader": []
+    },
+    "created_at": "2024-10-10T08:43:08.936885+00:00",
+    "updated_at": "2024-10-10T08:43:08.936885+00:00",
+    "id": "0ee858a7-ad00-4f0d-ad5e-c4f3ec759e9a",
+    "landing_id": "828dff13-0d33-4a89-9b2b-0209cb0a841b",
+    "module_id": "f785487c-9c42-4652-8324-4562c44d5341",
+    "user_id": "8e0966d3-9f0e-4e4f-b784-9bfc802079df"
+  },
+  {
+    "active": true,
+    "valid": true,
+    "values": {
+      "client": "543eb3df-4268-4d03-b95a-ddf8d4c04316",
+      "tenant": "bab1fc99-df84-4239-9998-957039d515b4",
+      "platformVersion": "v3"
+    },
+    "created_at": "2024-10-10T08:43:53.130891+00:00",
+    "updated_at": "2024-10-10T08:43:53.130891+00:00",
+    "id": "32639238-e68e-46af-8149-ebb9b37ee128",
+    "landing_id": "af114af9-075c-4e87-8bf7-dff2694f95c7",
+    "module_id": "2fe2348f-c464-4b6d-817b-a2492cb8cbc1",
+    "user_id": "8e0966d3-9f0e-4e4f-b784-9bfc802079df"
+  },
+  {
+    "active": true,
+    "valid": true,
+    "values": {
+      "oauth": {
+        "active": false
+      },
+      "callbackUrl": "https://demo.landing.identity-platform.dev/api/callback",
+      "callbackHeader": []
+    },
+    "created_at": "2024-10-10T08:43:53.130625+00:00",
+    "updated_at": "2024-10-10T08:43:53.130625+00:00",
+    "id": "4bd4a3e9-d382-4058-890c-7dfddfe4d586",
+    "landing_id": "af114af9-075c-4e87-8bf7-dff2694f95c7",
+    "module_id": "f785487c-9c42-4652-8324-4562c44d5341",
+    "user_id": "8e0966d3-9f0e-4e4f-b784-9bfc802079df"
+  }
+]

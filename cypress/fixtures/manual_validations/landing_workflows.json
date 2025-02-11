@@ -1,0 +1,2066 @@
+[
+  {
+    "definition": [
+      {
+        "id": "d9c69588-0176-472f-9b79-516ad379a07b",
+        "data": {
+          "label": null,
+          "widgetId": "6152fab3c01f0c1eb6deedd1",
+          "draggable": false,
+          "widgetName": "START",
+          "initialNode": true,
+          "configuration": {}
+        },
+        "type": "ActionNode",
+        "position": {
+          "x": 96,
+          "y": 213.5
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left"
+      },
+      {
+        "id": "reactflow__edge-d9c69588-0176-472f-9b79-516ad379a07b-775e3465-f94d-4ee6-a787-701aeac4bce9",
+        "source": "d9c69588-0176-472f-9b79-516ad379a07b",
+        "target": "775e3465-f94d-4ee6-a787-701aeac4bce9",
+        "sourceHandle": null,
+        "targetHandle": null,
+        "arrowHeadType": "arrowclosed"
+      },
+      {
+        "id": "775e3465-f94d-4ee6-a787-701aeac4bce9",
+        "data": {
+          "label": null,
+          "widgetId": "6152ccefc01f0c1eb6deedb8",
+          "draggable": true,
+          "widgetName": "SELPHID_WIDGET",
+          "configuration": {
+            "general": {
+              "output": [
+                {
+                  "key": "detail.extractionData.address",
+                  "title": "Address"
+                },
+                {
+                  "key": "detail.extractionData.dateOfBirth",
+                  "title": "Date of birth"
+                },
+                {
+                  "key": "detail.extractionData.dateOfExpiry",
+                  "title": "Date of expiry"
+                },
+                {
+                  "key": "detail.extractionData.documentCountryIssuer",
+                  "title": "Document country"
+                },
+                {
+                  "key": "detail.extractionData.documentId",
+                  "title": "Document ID"
+                },
+                {
+                  "key": "detail.extractionData.documentNumber",
+                  "title": "Document number"
+                },
+                {
+                  "key": "detail.extractionData.firstName",
+                  "title": "First name"
+                },
+                {
+                  "key": "detail.extractionData.lastName",
+                  "title": "Last name"
+                },
+                {
+                  "key": "detail.extractionData.gender",
+                  "title": "Gender"
+                },
+                {
+                  "key": "detail.extractionData.nationality",
+                  "title": "Nationality"
+                },
+                {
+                  "key": "detail.extractionData.placeOfBirth",
+                  "title": "Place of birth"
+                }
+              ],
+              "logImages": true,
+              "initialTip": false,
+              "imageFormat": "image/jpeg",
+              "documentMode": 2,
+              "allowUncertain": false,
+              "chooseDocument": true,
+              "forceLandscape": false,
+              "previewCapture": true,
+              "excludeCountries": "",
+              "allowUnknownDocuments": false
+            }
+          }
+        },
+        "position": {
+          "x": 1023.9999999999999,
+          "y": 203
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left"
+      },
+      {
+        "id": "reactflow__edge-775e3465-f94d-4ee6-a787-701aeac4bce9-f28922be-fc0c-443f-ba96-073f0dbfcde2",
+        "source": "775e3465-f94d-4ee6-a787-701aeac4bce9",
+        "target": "f28922be-fc0c-443f-ba96-073f0dbfcde2",
+        "sourceHandle": null,
+        "targetHandle": null,
+        "arrowHeadType": "arrowclosed"
+      },
+      {
+        "id": "f28922be-fc0c-443f-ba96-073f0dbfcde2",
+        "data": {
+          "label": null,
+          "widgetId": "6152cce0c01f0c1eb6deedb7",
+          "draggable": true,
+          "widgetName": "SELPHI_WIDGET",
+          "configuration": {
+            "general": {
+              "output": [],
+              "showLog": false,
+              "liveness": true,
+              "tutorial": false,
+              "logImages": true,
+              "imageFormat": "image/jpeg",
+              "interactible": true
+            }
+          }
+        },
+        "position": {
+          "x": 1023.9999999999999,
+          "y": 203
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left"
+      },
+      {
+        "id": "reactflow__edge-f28922be-fc0c-443f-ba96-073f0dbfcde2-1abab5bd-e656-4785-bd27-99efdd2483e3",
+        "source": "f28922be-fc0c-443f-ba96-073f0dbfcde2",
+        "target": "1abab5bd-e656-4785-bd27-99efdd2483e3",
+        "sourceHandle": null,
+        "targetHandle": null,
+        "arrowHeadType": "arrowclosed"
+      },
+      {
+        "id": "1abab5bd-e656-4785-bd27-99efdd2483e3",
+        "data": {
+          "label": null,
+          "widgetId": "6152fafec01f0c1eb6deedd3",
+          "draggable": true,
+          "widgetName": "FINISH",
+          "configuration": {}
+        },
+        "type": "ActionNode",
+        "position": {
+          "x": 1380,
+          "y": 211
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left"
+      }
+    ],
+    "name": "Onboarding",
+    "created_at": "2024-08-13T15:49:53.703782+00:00",
+    "updated_at": "2024-10-10T08:42:58.634466+00:00",
+    "id": "6d086626-b8eb-4307-9511-4df89696eadd",
+    "user_id": "8e0966d3-9f0e-4e4f-b784-9bfc802079df",
+    "workflow_id": "06ed72a1-aaad-4146-8953-eb3700e74583"
+  },
+  {
+    "definition": [
+      {
+        "id": "d9c69588-0176-472f-9b79-516ad379a07b",
+        "data": {
+          "label": null,
+          "widgetId": "6152fab3c01f0c1eb6deedd1",
+          "draggable": false,
+          "widgetName": "START",
+          "initialNode": true,
+          "configuration": {}
+        },
+        "type": "ActionNode",
+        "position": {
+          "x": 96,
+          "y": 213.5
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left"
+      },
+      {
+        "id": "reactflow__edge-d9c69588-0176-472f-9b79-516ad379a07b-775e3465-f94d-4ee6-a787-701aeac4bce9",
+        "source": "d9c69588-0176-472f-9b79-516ad379a07b",
+        "target": "775e3465-f94d-4ee6-a787-701aeac4bce9",
+        "sourceHandle": null,
+        "targetHandle": null,
+        "arrowHeadType": "arrowclosed"
+      },
+      {
+        "id": "775e3465-f94d-4ee6-a787-701aeac4bce9",
+        "data": {
+          "label": null,
+          "widgetId": "6152ccefc01f0c1eb6deedb8",
+          "draggable": true,
+          "widgetName": "SELPHID_WIDGET",
+          "configuration": {
+            "general": {
+              "output": [
+                {
+                  "key": "detail.extractionData.address",
+                  "title": "Address"
+                },
+                {
+                  "key": "detail.extractionData.dateOfBirth",
+                  "title": "Date of birth"
+                },
+                {
+                  "key": "detail.extractionData.dateOfExpiry",
+                  "title": "Date of expiry"
+                },
+                {
+                  "key": "detail.extractionData.documentCountryIssuer",
+                  "title": "Document country"
+                },
+                {
+                  "key": "detail.extractionData.documentId",
+                  "title": "Document ID"
+                },
+                {
+                  "key": "detail.extractionData.documentNumber",
+                  "title": "Document number"
+                },
+                {
+                  "key": "detail.extractionData.firstName",
+                  "title": "First name"
+                },
+                {
+                  "key": "detail.extractionData.lastName",
+                  "title": "Last name"
+                },
+                {
+                  "key": "detail.extractionData.gender",
+                  "title": "Gender"
+                },
+                {
+                  "key": "detail.extractionData.nationality",
+                  "title": "Nationality"
+                },
+                {
+                  "key": "detail.extractionData.placeOfBirth",
+                  "title": "Place of birth"
+                }
+              ],
+              "country": "",
+              "logImages": true,
+              "initialTip": false,
+              "imageFormat": "image/jpeg",
+              "documentMode": 2,
+              "allowUncertain": false,
+              "chooseDocument": false,
+              "forceLandscape": false,
+              "previewCapture": false,
+              "excludeCountries": "",
+              "allowUnknownDocuments": false
+            }
+          }
+        },
+        "position": {
+          "x": 1023.9999999999999,
+          "y": 203
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left"
+      },
+      {
+        "id": "reactflow__edge-775e3465-f94d-4ee6-a787-701aeac4bce9-f28922be-fc0c-443f-ba96-073f0dbfcde2",
+        "source": "775e3465-f94d-4ee6-a787-701aeac4bce9",
+        "target": "f28922be-fc0c-443f-ba96-073f0dbfcde2",
+        "sourceHandle": null,
+        "targetHandle": null,
+        "arrowHeadType": "arrowclosed"
+      },
+      {
+        "id": "f28922be-fc0c-443f-ba96-073f0dbfcde2",
+        "data": {
+          "label": null,
+          "widgetId": "6152cce0c01f0c1eb6deedb7",
+          "draggable": true,
+          "widgetName": "SELPHI_WIDGET",
+          "configuration": {
+            "general": {
+              "output": null,
+              "showLog": false,
+              "liveness": true,
+              "tutorial": false,
+              "logImages": true,
+              "imageFormat": "image/jpeg",
+              "interactible": true
+            }
+          }
+        },
+        "position": {
+          "x": 1023.9999999999999,
+          "y": 203
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left"
+      },
+      {
+        "id": "reactflow__edge-f28922be-fc0c-443f-ba96-073f0dbfcde2-1abab5bd-e656-4785-bd27-99efdd2483e3",
+        "source": "f28922be-fc0c-443f-ba96-073f0dbfcde2",
+        "target": "1abab5bd-e656-4785-bd27-99efdd2483e3",
+        "sourceHandle": null,
+        "targetHandle": null,
+        "arrowHeadType": "arrowclosed"
+      },
+      {
+        "id": "1abab5bd-e656-4785-bd27-99efdd2483e3",
+        "data": {
+          "label": null,
+          "widgetId": "6152fafec01f0c1eb6deedd3",
+          "draggable": true,
+          "widgetName": "FINISH",
+          "configuration": {}
+        },
+        "type": "ActionNode",
+        "position": {
+          "x": 1380,
+          "y": 211
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left"
+      }
+    ],
+    "name": "Onboarding with Video Recording",
+    "created_at": "2024-08-13T15:48:34.918516+00:00",
+    "updated_at": "2024-10-10T08:43:40.508668+00:00",
+    "id": "9f50cd7e-54c8-43e8-a4eb-d2cac0031a93",
+    "user_id": "8e0966d3-9f0e-4e4f-b784-9bfc802079df",
+    "workflow_id": "9adca553-d7a5-4d0f-a41d-d825d23ef9f6"
+  },
+  {
+    "definition": [
+      {
+        "id": "d9c69588-0176-472f-9b79-516ad379a07b",
+        "data": {
+          "label": null,
+          "widgetId": "6152fab3c01f0c1eb6deedd1",
+          "draggable": false,
+          "widgetName": "START",
+          "initialNode": true,
+          "configuration": {}
+        },
+        "type": "ActionNode",
+        "position": {
+          "x": 96,
+          "y": 213.5
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left"
+      },
+      {
+        "id": "reactflow__edge-d9c69588-0176-472f-9b79-516ad379a07b-775e3465-f94d-4ee6-a787-701aeac4bce9",
+        "source": "d9c69588-0176-472f-9b79-516ad379a07b",
+        "target": "775e3465-f94d-4ee6-a787-701aeac4bce9",
+        "sourceHandle": null,
+        "targetHandle": null,
+        "arrowHeadType": "arrowclosed"
+      },
+      {
+        "id": "775e3465-f94d-4ee6-a787-701aeac4bce9",
+        "data": {
+          "label": null,
+          "widgetId": "6152ccefc01f0c1eb6deedb8",
+          "draggable": true,
+          "widgetName": "SELPHID_WIDGET",
+          "configuration": {
+            "general": {
+              "output": [
+                {
+                  "key": "detail.extractionData.address",
+                  "title": "Address"
+                },
+                {
+                  "key": "detail.extractionData.dateOfBirth",
+                  "title": "Date of birth"
+                },
+                {
+                  "key": "detail.extractionData.dateOfExpiry",
+                  "title": "Date of expiry"
+                },
+                {
+                  "key": "detail.extractionData.documentCountryIssuer",
+                  "title": "Document country"
+                },
+                {
+                  "key": "detail.extractionData.documentId",
+                  "title": "Document ID"
+                },
+                {
+                  "key": "detail.extractionData.documentNumber",
+                  "title": "Document number"
+                },
+                {
+                  "key": "detail.extractionData.firstName",
+                  "title": "First name"
+                },
+                {
+                  "key": "detail.extractionData.lastName",
+                  "title": "Last name"
+                },
+                {
+                  "key": "detail.extractionData.gender",
+                  "title": "Gender"
+                },
+                {
+                  "key": "detail.extractionData.nationality",
+                  "title": "Nationality"
+                },
+                {
+                  "key": "detail.extractionData.placeOfBirth",
+                  "title": "Place of birth"
+                }
+              ],
+              "logImages": true,
+              "initialTip": false,
+              "imageFormat": "image/png",
+              "documentMode": 2,
+              "allowUncertain": false,
+              "chooseDocument": false,
+              "forceLandscape": false,
+              "previewCapture": true,
+              "excludeCountries": "",
+              "allowUnknownDocuments": false
+            }
+          }
+        },
+        "position": {
+          "x": 1023.9999999999999,
+          "y": 203
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left"
+      },
+      {
+        "id": "reactflow__edge-775e3465-f94d-4ee6-a787-701aeac4bce9-f28922be-fc0c-443f-ba96-073f0dbfcde2",
+        "source": "775e3465-f94d-4ee6-a787-701aeac4bce9",
+        "target": "f28922be-fc0c-443f-ba96-073f0dbfcde2",
+        "sourceHandle": null,
+        "targetHandle": null,
+        "arrowHeadType": "arrowclosed"
+      },
+      {
+        "id": "f28922be-fc0c-443f-ba96-073f0dbfcde2",
+        "data": {
+          "label": null,
+          "widgetId": "6152cce0c01f0c1eb6deedb7",
+          "draggable": true,
+          "widgetName": "SELPHI_WIDGET",
+          "configuration": {
+            "general": {
+              "output": [],
+              "showLog": false,
+              "liveness": true,
+              "tutorial": false,
+              "logImages": true,
+              "imageFormat": "image/jpeg",
+              "interactible": true
+            }
+          }
+        },
+        "position": {
+          "x": 1023.9999999999999,
+          "y": 203
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left"
+      },
+      {
+        "id": "reactflow__edge-f28922be-fc0c-443f-ba96-073f0dbfcde2-c8803b6e-e917-4766-9df8-4db94aef6cb0",
+        "source": "f28922be-fc0c-443f-ba96-073f0dbfcde2",
+        "target": "c8803b6e-e917-4766-9df8-4db94aef6cb0",
+        "sourceHandle": null,
+        "targetHandle": null,
+        "arrowHeadType": "arrowclosed"
+      },
+      {
+        "id": "c8803b6e-e917-4766-9df8-4db94aef6cb0",
+        "data": {
+          "label": null,
+          "widgetId": "6152fab3c01f0c1eb6deedd9",
+          "draggable": true,
+          "widgetName": "DOCUMENT_VALIDATION",
+          "configuration": {
+            "general": {
+              "output": null
+            }
+          }
+        },
+        "position": {
+          "x": 1023.9999999999999,
+          "y": 203
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left"
+      },
+      {
+        "id": "reactflow__edge-c8803b6e-e917-4766-9df8-4db94aef6cb0-2180cdc3-14d3-4e00-9245-63ddcedb5927",
+        "source": "c8803b6e-e917-4766-9df8-4db94aef6cb0",
+        "target": "2180cdc3-14d3-4e00-9245-63ddcedb5927",
+        "sourceHandle": null,
+        "targetHandle": null,
+        "arrowHeadType": "arrowclosed"
+      },
+      {
+        "id": "2180cdc3-14d3-4e00-9245-63ddcedb5927",
+        "data": {
+          "label": null,
+          "widgetId": "6152fab3c01f0c1eb6deedd3",
+          "draggable": true,
+          "widgetName": "RESULTS",
+          "configuration": {
+            "general": {
+              "output": null
+            }
+          }
+        },
+        "position": {
+          "x": 1023.9999999999999,
+          "y": 203
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left"
+      },
+      {
+        "id": "reactflow__edge-2180cdc3-14d3-4e00-9245-63ddcedb5927-1abab5bd-e656-4785-bd27-99efdd2483e3",
+        "source": "2180cdc3-14d3-4e00-9245-63ddcedb5927",
+        "target": "1abab5bd-e656-4785-bd27-99efdd2483e3",
+        "sourceHandle": null,
+        "targetHandle": null,
+        "arrowHeadType": "arrowclosed"
+      },
+      {
+        "id": "1abab5bd-e656-4785-bd27-99efdd2483e3",
+        "data": {
+          "label": null,
+          "widgetId": "6152fafec01f0c1eb6deedd3",
+          "draggable": true,
+          "widgetName": "FINISH",
+          "configuration": {}
+        },
+        "type": "ActionNode",
+        "position": {
+          "x": 1380,
+          "y": 211
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left"
+      }
+    ],
+    "name": "Onboarding with Document Validation",
+    "created_at": "2024-08-13T15:52:38.257789+00:00",
+    "updated_at": "2024-10-10T08:40:53.396207+00:00",
+    "id": "d5bd7081-6e8c-4663-a5c9-38fcb075c629",
+    "user_id": "8e0966d3-9f0e-4e4f-b784-9bfc802079df",
+    "workflow_id": "69fd7a57-41fe-46a4-ba37-58f97d754446"
+  },
+  {
+    "definition": [
+      {
+        "id": "d9c69588-0176-472f-9b79-516ad379a07b",
+        "data": {
+          "label": null,
+          "widgetId": "6152fab3c01f0c1eb6deedd1",
+          "draggable": false,
+          "widgetName": "START",
+          "initialNode": true,
+          "configuration": {}
+        },
+        "type": "ActionNode",
+        "position": {
+          "x": 96,
+          "y": 213.5
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left"
+      },
+      {
+        "id": "reactflow__edge-d9c69588-0176-472f-9b79-516ad379a07b-775e3465-f94d-4ee6-a787-701aeac4bce9",
+        "source": "d9c69588-0176-472f-9b79-516ad379a07b",
+        "target": "775e3465-f94d-4ee6-a787-701aeac4bce9",
+        "sourceHandle": null,
+        "targetHandle": null,
+        "arrowHeadType": "arrowclosed"
+      },
+      {
+        "id": "775e3465-f94d-4ee6-a787-701aeac4bce9",
+        "data": {
+          "label": null,
+          "widgetId": "6152ccefc01f0c1eb6deedb8",
+          "draggable": true,
+          "widgetName": "SELPHID_WIDGET",
+          "configuration": {
+            "general": {
+              "output": [
+                {
+                  "key": "detail.extractionData.address",
+                  "title": "Address"
+                },
+                {
+                  "key": "detail.extractionData.dateOfBirth",
+                  "title": "Date of birth"
+                },
+                {
+                  "key": "detail.extractionData.dateOfExpiry",
+                  "title": "Date of expiry"
+                },
+                {
+                  "key": "detail.extractionData.documentCountryIssuer",
+                  "title": "Document country"
+                },
+                {
+                  "key": "detail.extractionData.documentId",
+                  "title": "Document ID"
+                },
+                {
+                  "key": "detail.extractionData.documentNumber",
+                  "title": "Document number"
+                },
+                {
+                  "key": "detail.extractionData.firstName",
+                  "title": "First name"
+                },
+                {
+                  "key": "detail.extractionData.lastName",
+                  "title": "Last name"
+                },
+                {
+                  "key": "detail.extractionData.gender",
+                  "title": "Gender"
+                },
+                {
+                  "key": "detail.extractionData.nationality",
+                  "title": "Nationality"
+                },
+                {
+                  "key": "detail.extractionData.placeOfBirth",
+                  "title": "Place of birth"
+                }
+              ],
+              "logImages": true,
+              "initialTip": false,
+              "imageFormat": "image/jpeg",
+              "documentMode": 2,
+              "allowUncertain": false,
+              "chooseDocument": false,
+              "forceLandscape": false,
+              "previewCapture": false,
+              "excludeCountries": "",
+              "allowUnknownDocuments": false
+            }
+          }
+        },
+        "position": {
+          "x": 1023.9999999999999,
+          "y": 203
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left"
+      },
+      {
+        "id": "reactflow__edge-775e3465-f94d-4ee6-a787-701aeac4bce9-f28922be-fc0c-443f-ba96-073f0dbfcde2",
+        "source": "775e3465-f94d-4ee6-a787-701aeac4bce9",
+        "target": "f28922be-fc0c-443f-ba96-073f0dbfcde2",
+        "sourceHandle": null,
+        "targetHandle": null,
+        "arrowHeadType": "arrowclosed"
+      },
+      {
+        "id": "f28922be-fc0c-443f-ba96-073f0dbfcde2",
+        "data": {
+          "label": null,
+          "widgetId": "6152cce0c01f0c1eb6deedb7",
+          "draggable": true,
+          "widgetName": "SELPHI_WIDGET",
+          "configuration": {
+            "general": {
+              "output": null,
+              "showLog": false,
+              "liveness": true,
+              "tutorial": false,
+              "logImages": true,
+              "imageFormat": "image/jpeg",
+              "interactible": true
+            }
+          }
+        },
+        "position": {
+          "x": 1023.9999999999999,
+          "y": 203
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left"
+      },
+      {
+        "id": "reactflow__edge-f28922be-fc0c-443f-ba96-073f0dbfcde2-1abab5bd-e656-4785-bd27-99efdd2483e3",
+        "source": "f28922be-fc0c-443f-ba96-073f0dbfcde2",
+        "target": "1abab5bd-e656-4785-bd27-99efdd2483e3",
+        "sourceHandle": null,
+        "targetHandle": null,
+        "arrowHeadType": "arrowclosed"
+      },
+      {
+        "id": "1abab5bd-e656-4785-bd27-99efdd2483e3",
+        "data": {
+          "label": null,
+          "widgetId": "6152fafec01f0c1eb6deedd3",
+          "draggable": true,
+          "widgetName": "FINISH",
+          "configuration": {}
+        },
+        "type": "ActionNode",
+        "position": {
+          "x": 1380,
+          "y": 211
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left"
+      }
+    ],
+    "name": "Onboarding",
+    "created_at": "2024-08-14T14:29:16.09356+00:00",
+    "updated_at": "2024-08-14T14:29:40.572896+00:00",
+    "id": "3f348016-3172-4271-84b0-18762bd9ec62",
+    "user_id": "8e0966d3-9f0e-4e4f-b784-9bfc802079df",
+    "workflow_id": "06ed72a1-aaad-4146-8953-eb3700e74583"
+  },
+  {
+    "definition": [
+      {
+        "id": "d9c69588-0176-472f-9b79-516ad379a07b",
+        "data": {
+          "label": null,
+          "widgetId": "6152fab3c01f0c1eb6deedd1",
+          "draggable": false,
+          "widgetName": "START",
+          "initialNode": true,
+          "configuration": {}
+        },
+        "type": "ActionNode",
+        "position": {
+          "x": 96,
+          "y": 213.5
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left"
+      },
+      {
+        "id": "reactflow__edge-d9c69588-0176-472f-9b79-516ad379a07b-775e3465-f94d-4ee6-a787-701aeac4bce9",
+        "source": "d9c69588-0176-472f-9b79-516ad379a07b",
+        "target": "775e3465-f94d-4ee6-a787-701aeac4bce9",
+        "sourceHandle": null,
+        "targetHandle": null,
+        "arrowHeadType": "arrowclosed"
+      },
+      {
+        "id": "775e3465-f94d-4ee6-a787-701aeac4bce9",
+        "data": {
+          "label": null,
+          "widgetId": "6152ccefc01f0c1eb6deedb8",
+          "draggable": true,
+          "widgetName": "SELPHID_WIDGET",
+          "configuration": {
+            "general": {
+              "output": [
+                {
+                  "key": "detail.extractionData.address",
+                  "title": "Address"
+                },
+                {
+                  "key": "detail.extractionData.dateOfBirth",
+                  "title": "Date of birth"
+                },
+                {
+                  "key": "detail.extractionData.dateOfExpiry",
+                  "title": "Date of expiry"
+                },
+                {
+                  "key": "detail.extractionData.documentCountryIssuer",
+                  "title": "Document country"
+                },
+                {
+                  "key": "detail.extractionData.documentId",
+                  "title": "Document ID"
+                },
+                {
+                  "key": "detail.extractionData.documentNumber",
+                  "title": "Document number"
+                },
+                {
+                  "key": "detail.extractionData.firstName",
+                  "title": "First name"
+                },
+                {
+                  "key": "detail.extractionData.lastName",
+                  "title": "Last name"
+                },
+                {
+                  "key": "detail.extractionData.gender",
+                  "title": "Gender"
+                },
+                {
+                  "key": "detail.extractionData.nationality",
+                  "title": "Nationality"
+                },
+                {
+                  "key": "detail.extractionData.placeOfBirth",
+                  "title": "Place of birth"
+                }
+              ],
+              "country": "",
+              "logImages": true,
+              "initialTip": false,
+              "imageFormat": "image/jpeg",
+              "documentMode": 2,
+              "allowUncertain": false,
+              "chooseDocument": false,
+              "forceLandscape": false,
+              "previewCapture": false,
+              "excludeCountries": "",
+              "allowUnknownDocuments": false
+            }
+          }
+        },
+        "position": {
+          "x": 1023.9999999999999,
+          "y": 203
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left"
+      },
+      {
+        "id": "reactflow__edge-775e3465-f94d-4ee6-a787-701aeac4bce9-f28922be-fc0c-443f-ba96-073f0dbfcde2",
+        "source": "775e3465-f94d-4ee6-a787-701aeac4bce9",
+        "target": "f28922be-fc0c-443f-ba96-073f0dbfcde2",
+        "sourceHandle": null,
+        "targetHandle": null,
+        "arrowHeadType": "arrowclosed"
+      },
+      {
+        "id": "f28922be-fc0c-443f-ba96-073f0dbfcde2",
+        "data": {
+          "label": null,
+          "widgetId": "6152cce0c01f0c1eb6deedb7",
+          "draggable": true,
+          "widgetName": "SELPHI_WIDGET",
+          "configuration": {
+            "general": {
+              "output": null,
+              "showLog": false,
+              "liveness": true,
+              "tutorial": false,
+              "logImages": true,
+              "imageFormat": "image/jpeg",
+              "interactible": true
+            }
+          }
+        },
+        "position": {
+          "x": 1023.9999999999999,
+          "y": 203
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left"
+      },
+      {
+        "id": "reactflow__edge-f28922be-fc0c-443f-ba96-073f0dbfcde2-1abab5bd-e656-4785-bd27-99efdd2483e3",
+        "source": "f28922be-fc0c-443f-ba96-073f0dbfcde2",
+        "target": "1abab5bd-e656-4785-bd27-99efdd2483e3",
+        "sourceHandle": null,
+        "targetHandle": null,
+        "arrowHeadType": "arrowclosed"
+      },
+      {
+        "id": "1abab5bd-e656-4785-bd27-99efdd2483e3",
+        "data": {
+          "label": null,
+          "widgetId": "6152fafec01f0c1eb6deedd3",
+          "draggable": true,
+          "widgetName": "FINISH",
+          "configuration": {}
+        },
+        "type": "ActionNode",
+        "position": {
+          "x": 1380,
+          "y": 211
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left"
+      }
+    ],
+    "name": "Onboarding Regression",
+    "created_at": "2024-08-14T14:30:57.158052+00:00",
+    "updated_at": "2024-08-14T14:31:09.605668+00:00",
+    "id": "af161626-34bd-44c1-8b30-cba3f2980ca0",
+    "user_id": "8e0966d3-9f0e-4e4f-b784-9bfc802079df",
+    "workflow_id": "06ed72a1-aaad-4146-8953-eb3700e74583"
+  },
+  {
+    "definition": [
+      {
+        "id": "d9c69588-0176-472f-9b79-516ad379a07b",
+        "data": {
+          "label": null,
+          "widgetId": "6152fab3c01f0c1eb6deedd1",
+          "draggable": false,
+          "widgetName": "START",
+          "initialNode": true,
+          "configuration": {}
+        },
+        "type": "ActionNode",
+        "position": {
+          "x": 96,
+          "y": 213.5
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left"
+      },
+      {
+        "id": "reactflow__edge-d9c69588-0176-472f-9b79-516ad379a07b-7a935a6d-f4c2-4a5d-ab6a-25b02f3ff27d",
+        "source": "d9c69588-0176-472f-9b79-516ad379a07b",
+        "target": "7a935a6d-f4c2-4a5d-ab6a-25b02f3ff27d",
+        "sourceHandle": null,
+        "targetHandle": null,
+        "arrowHeadType": "arrowclosed"
+      },
+      {
+        "id": "7a935a6d-f4c2-4a5d-ab6a-25b02f3ff27d",
+        "data": {
+          "label": null,
+          "widgetId": "6152cce0c01f0c1eb6deedb6",
+          "draggable": true,
+          "widgetName": "FORM_WIDGET",
+          "configuration": {
+            "general": {
+              "output": [
+                {
+                  "key": "name1723716651874",
+                  "title": "Name"
+                },
+                {
+                  "key": "email1723716661796",
+                  "title": "Email"
+                },
+                {
+                  "key": "phone1723716663170",
+                  "title": "Phone"
+                }
+              ],
+              "formData": {
+                "field": [
+                  {
+                    "key": "name1723716651874",
+                    "type": "input",
+                    "title": "Name",
+                    "output": true,
+                    "hasPattern": false,
+                    "isRequired": true
+                  },
+                  {
+                    "key": "email1723716661796",
+                    "type": "input",
+                    "title": "Email",
+                    "output": true,
+                    "pattern": "[a-z0-9._%+\\-]+@[a-z0-9.\\-]+\\.[a-z]{2,}$",
+                    "hasPattern": true,
+                    "isRequired": true
+                  },
+                  {
+                    "key": "phone1723716663170",
+                    "type": "input",
+                    "title": "Phone",
+                    "output": true,
+                    "pattern": "^\\d+$",
+                    "hasPattern": true,
+                    "isRequired": true
+                  }
+                ],
+                "title": "QA Form",
+                "button": "Submit"
+              }
+            }
+          }
+        },
+        "position": {
+          "x": 1023.9999999999999,
+          "y": 203
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left"
+      },
+      {
+        "id": "reactflow__edge-7a935a6d-f4c2-4a5d-ab6a-25b02f3ff27d-1abab5bd-e656-4785-bd27-99efdd2483e3",
+        "source": "7a935a6d-f4c2-4a5d-ab6a-25b02f3ff27d",
+        "target": "1abab5bd-e656-4785-bd27-99efdd2483e3",
+        "sourceHandle": null,
+        "targetHandle": null,
+        "arrowHeadType": "arrowclosed"
+      },
+      {
+        "id": "1abab5bd-e656-4785-bd27-99efdd2483e3",
+        "data": {
+          "label": null,
+          "widgetId": "6152fafec01f0c1eb6deedd3",
+          "draggable": true,
+          "widgetName": "FINISH",
+          "configuration": {}
+        },
+        "type": "ActionNode",
+        "position": {
+          "x": 1380,
+          "y": 211
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left"
+      }
+    ],
+    "name": "Form Test",
+    "created_at": "2024-08-15T10:12:55.853117+00:00",
+    "updated_at": "2024-08-15T10:12:55.96264+00:00",
+    "id": "06834398-bf88-4426-8273-6a832b09c75a",
+    "user_id": "8e0966d3-9f0e-4e4f-b784-9bfc802079df",
+    "workflow_id": null
+  },
+  {
+    "definition": [
+      {
+        "id": "d9c69588-0176-472f-9b79-516ad379a07b",
+        "data": {
+          "label": null,
+          "widgetId": "6152fab3c01f0c1eb6deedd1",
+          "draggable": false,
+          "widgetName": "START",
+          "initialNode": true,
+          "configuration": {}
+        },
+        "type": "ActionNode",
+        "position": {
+          "x": 96,
+          "y": 213.5
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left"
+      },
+      {
+        "id": "reactflow__edge-d9c69588-0176-472f-9b79-516ad379a07b-e55b26b7-882c-48a6-badc-bdf0b7393834",
+        "source": "d9c69588-0176-472f-9b79-516ad379a07b",
+        "target": "e55b26b7-882c-48a6-badc-bdf0b7393834",
+        "sourceHandle": null,
+        "targetHandle": null,
+        "arrowHeadType": "arrowclosed"
+      },
+      {
+        "id": "e55b26b7-882c-48a6-badc-bdf0b7393834",
+        "data": {
+          "label": null,
+          "widgetId": "6152fab3c01f0c1eb6deedd2",
+          "draggable": true,
+          "widgetName": "VIDEO_CONTRACTING",
+          "configuration": {
+            "general": {
+              "apiKey": "",
+              "apiUrl": "",
+              "output": []
+            }
+          }
+        },
+        "position": {
+          "x": 1023.9999999999999,
+          "y": 203
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left"
+      },
+      {
+        "id": "reactflow__edge-e55b26b7-882c-48a6-badc-bdf0b7393834-1abab5bd-e656-4785-bd27-99efdd2483e3",
+        "source": "e55b26b7-882c-48a6-badc-bdf0b7393834",
+        "target": "1abab5bd-e656-4785-bd27-99efdd2483e3",
+        "sourceHandle": null,
+        "targetHandle": null,
+        "arrowHeadType": "arrowclosed"
+      },
+      {
+        "id": "1abab5bd-e656-4785-bd27-99efdd2483e3",
+        "data": {
+          "label": null,
+          "widgetId": "6152fafec01f0c1eb6deedd3",
+          "draggable": true,
+          "widgetName": "FINISH",
+          "configuration": {}
+        },
+        "type": "ActionNode",
+        "position": {
+          "x": 1380,
+          "y": 211
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left"
+      }
+    ],
+    "name": "Video Contracting",
+    "created_at": "2024-08-13T15:58:23.631824+00:00",
+    "updated_at": "2024-10-10T08:33:03.75692+00:00",
+    "id": "d3c6088a-8cc3-404d-adde-6dab70015198",
+    "user_id": "8e0966d3-9f0e-4e4f-b784-9bfc802079df",
+    "workflow_id": "e917c54d-c511-4099-a39c-d32af6782a3d"
+  },
+  {
+    "definition": [
+      {
+        "id": "d9c69588-0176-472f-9b79-516ad379a07b",
+        "data": {
+          "label": null,
+          "widgetId": "6152fab3c01f0c1eb6deedd1",
+          "draggable": false,
+          "widgetName": "START",
+          "initialNode": true,
+          "configuration": {}
+        },
+        "type": "ActionNode",
+        "position": {
+          "x": 96,
+          "y": 213.5
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left"
+      },
+      {
+        "id": "reactflow__edge-d9c69588-0176-472f-9b79-516ad379a07b-f28922be-fc0c-443f-ba96-073f0dbfcde2",
+        "source": "d9c69588-0176-472f-9b79-516ad379a07b",
+        "target": "f28922be-fc0c-443f-ba96-073f0dbfcde2",
+        "sourceHandle": null,
+        "targetHandle": null,
+        "arrowHeadType": "arrowclosed"
+      },
+      {
+        "id": "f28922be-fc0c-443f-ba96-073f0dbfcde2",
+        "data": {
+          "label": null,
+          "widgetId": "6152cce0c01f0c1eb6deedb7",
+          "draggable": true,
+          "widgetName": "SELPHI_WIDGET",
+          "configuration": {
+            "general": {
+              "output": [],
+              "showLog": false,
+              "liveness": true,
+              "tutorial": false,
+              "logImages": true,
+              "imageFormat": "image/jpeg",
+              "interactible": true,
+              "enableLiveness": true,
+              "enableMatching": false
+            }
+          }
+        },
+        "position": {
+          "x": 1023.9999999999999,
+          "y": 203
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left"
+      },
+      {
+        "id": "reactflow__edge-f28922be-fc0c-443f-ba96-073f0dbfcde2-1abab5bd-e656-4785-bd27-99efdd2483e3",
+        "source": "f28922be-fc0c-443f-ba96-073f0dbfcde2",
+        "target": "1abab5bd-e656-4785-bd27-99efdd2483e3",
+        "sourceHandle": null,
+        "targetHandle": null,
+        "arrowHeadType": "arrowclosed"
+      },
+      {
+        "id": "1abab5bd-e656-4785-bd27-99efdd2483e3",
+        "data": {
+          "label": null,
+          "widgetId": "6152fafec01f0c1eb6deedd3",
+          "draggable": true,
+          "widgetName": "FINISH",
+          "configuration": {}
+        },
+        "type": "ActionNode",
+        "position": {
+          "x": 1380,
+          "y": 211
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left"
+      }
+    ],
+    "name": "Authentication",
+    "created_at": "2024-09-23T13:33:10.219+00:00",
+    "updated_at": "2024-09-23T13:33:10.219+00:00",
+    "id": "21bb18d8-5d79-4128-a4a2-b596f06c4b75",
+    "user_id": "8e0966d3-9f0e-4e4f-b784-9bfc802079df",
+    "workflow_id": "0521bb20-cd40-4f33-a310-d4005a7f4881"
+  },
+  {
+    "definition": [
+      {
+        "id": "05bb9b2e-28fd-4afb-84be-ae4f8cecbcb2",
+        "data": {
+          "label": null,
+          "widgetId": "6152fab3c01f0c1eb6deedd0",
+          "draggable": true,
+          "widgetName": "VIDEO_RECORDING",
+          "configuration": {
+            "general": {
+              "output": null,
+              "required": false
+            }
+          }
+        },
+        "position": {
+          "x": 1023.9999999999999,
+          "y": 203
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left"
+      },
+      {
+        "id": "d9c69588-0176-472f-9b79-516ad379a07b",
+        "data": {
+          "label": null,
+          "widgetId": "6152fab3c01f0c1eb6deedd1",
+          "draggable": false,
+          "widgetName": "START",
+          "initialNode": true,
+          "configuration": {}
+        },
+        "type": "ActionNode",
+        "position": {
+          "x": 96,
+          "y": 213.5
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left"
+      },
+      {
+        "id": "reactflow__edge-d9c69588-0176-472f-9b79-516ad379a07b-775e3465-f94d-4ee6-a787-701aeac4bce9",
+        "source": "d9c69588-0176-472f-9b79-516ad379a07b",
+        "target": "775e3465-f94d-4ee6-a787-701aeac4bce9",
+        "sourceHandle": null,
+        "targetHandle": null,
+        "arrowHeadType": "arrowclosed"
+      },
+      {
+        "id": "775e3465-f94d-4ee6-a787-701aeac4bce9",
+        "data": {
+          "label": null,
+          "widgetId": "6152ccefc01f0c1eb6deedb8",
+          "draggable": true,
+          "widgetName": "SELPHID_WIDGET",
+          "configuration": {
+            "general": {
+              "output": [
+                {
+                  "key": "detail.extractionData.address",
+                  "title": "Address"
+                },
+                {
+                  "key": "detail.extractionData.dateOfBirth",
+                  "title": "Date of birth"
+                },
+                {
+                  "key": "detail.extractionData.dateOfExpiry",
+                  "title": "Date of expiry"
+                },
+                {
+                  "key": "detail.extractionData.documentCountryIssuer",
+                  "title": "Document country"
+                },
+                {
+                  "key": "detail.extractionData.documentId",
+                  "title": "Document ID"
+                },
+                {
+                  "key": "detail.extractionData.documentNumber",
+                  "title": "Document number"
+                },
+                {
+                  "key": "detail.extractionData.firstName",
+                  "title": "First name"
+                },
+                {
+                  "key": "detail.extractionData.lastName",
+                  "title": "Last name"
+                },
+                {
+                  "key": "detail.extractionData.gender",
+                  "title": "Gender"
+                },
+                {
+                  "key": "detail.extractionData.nationality",
+                  "title": "Nationality"
+                },
+                {
+                  "key": "detail.extractionData.placeOfBirth",
+                  "title": "Place of birth"
+                }
+              ],
+              "country": "",
+              "logImages": true,
+              "initialTip": false,
+              "imageFormat": "image/jpeg",
+              "documentMode": 2,
+              "allowUncertain": false,
+              "chooseDocument": false,
+              "forceLandscape": false,
+              "previewCapture": false,
+              "excludeCountries": "",
+              "allowUnknownDocuments": false
+            }
+          }
+        },
+        "position": {
+          "x": 1023.9999999999999,
+          "y": 203
+        },
+        "parentNode": "05bb9b2e-28fd-4afb-84be-ae4f8cecbcb2",
+        "sourcePosition": "right",
+        "targetPosition": "left"
+      },
+      {
+        "id": "reactflow__edge-775e3465-f94d-4ee6-a787-701aeac4bce9-f28922be-fc0c-443f-ba96-073f0dbfcde2",
+        "source": "775e3465-f94d-4ee6-a787-701aeac4bce9",
+        "target": "f28922be-fc0c-443f-ba96-073f0dbfcde2",
+        "sourceHandle": null,
+        "targetHandle": null,
+        "arrowHeadType": "arrowclosed"
+      },
+      {
+        "id": "f28922be-fc0c-443f-ba96-073f0dbfcde2",
+        "data": {
+          "label": null,
+          "widgetId": "6152cce0c01f0c1eb6deedb7",
+          "draggable": true,
+          "widgetName": "SELPHI_WIDGET",
+          "configuration": {
+            "general": {
+              "output": [],
+              "showLog": false,
+              "liveness": true,
+              "tutorial": false,
+              "logImages": true,
+              "imageFormat": "image/jpeg",
+              "interactible": true
+            }
+          }
+        },
+        "position": {
+          "x": 1023.9999999999999,
+          "y": 203
+        },
+        "parentNode": "05bb9b2e-28fd-4afb-84be-ae4f8cecbcb2",
+        "sourcePosition": "right",
+        "targetPosition": "left"
+      },
+      {
+        "id": "reactflow__edge-f28922be-fc0c-443f-ba96-073f0dbfcde2-c8803b6e-e917-4766-9df8-4db94aef6cb0",
+        "source": "f28922be-fc0c-443f-ba96-073f0dbfcde2",
+        "target": "c8803b6e-e917-4766-9df8-4db94aef6cb0",
+        "sourceHandle": null,
+        "targetHandle": null,
+        "arrowHeadType": "arrowclosed"
+      },
+      {
+        "id": "c8803b6e-e917-4766-9df8-4db94aef6cb0",
+        "data": {
+          "label": null,
+          "widgetId": "6152fab3c01f0c1eb6deedd9",
+          "draggable": true,
+          "widgetName": "DOCUMENT_VALIDATION",
+          "configuration": {
+            "general": {
+              "output": null
+            }
+          }
+        },
+        "position": {
+          "x": 1023.9999999999999,
+          "y": 203
+        },
+        "parentNode": "05bb9b2e-28fd-4afb-84be-ae4f8cecbcb2",
+        "sourcePosition": "right",
+        "targetPosition": "left"
+      },
+      {
+        "id": "reactflow__edge-c8803b6e-e917-4766-9df8-4db94aef6cb0-1abab5bd-e656-4785-bd27-99efdd2483e3",
+        "source": "c8803b6e-e917-4766-9df8-4db94aef6cb0",
+        "target": "1abab5bd-e656-4785-bd27-99efdd2483e3",
+        "sourceHandle": null,
+        "targetHandle": null,
+        "arrowHeadType": "arrowclosed"
+      },
+      {
+        "id": "1abab5bd-e656-4785-bd27-99efdd2483e3",
+        "data": {
+          "label": null,
+          "widgetId": "6152fafec01f0c1eb6deedd3",
+          "draggable": true,
+          "widgetName": "FINISH",
+          "configuration": {}
+        },
+        "type": "ActionNode",
+        "position": {
+          "x": 1380,
+          "y": 211
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left"
+      }
+    ],
+    "name": "Onboarding with Document Validation and Video Recording",
+    "created_at": "2024-08-13T15:59:40.869328+00:00",
+    "updated_at": "2024-10-10T08:32:42.190851+00:00",
+    "id": "4f148b24-89fe-450d-9bca-b9d428709218",
+    "user_id": "8e0966d3-9f0e-4e4f-b784-9bfc802079df",
+    "workflow_id": "0521bb20-cd40-4f33-a310-d4005a7f4778"
+  },
+  {
+    "definition": [
+      {
+        "id": "d9c69588-0176-472f-9b79-516ad379a07b",
+        "data": {
+          "label": null,
+          "widgetId": "6152fab3c01f0c1eb6deedd1",
+          "draggable": false,
+          "widgetName": "START",
+          "initialNode": true,
+          "configuration": {}
+        },
+        "type": "ActionNode",
+        "position": {
+          "x": 96,
+          "y": 213.5
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left"
+      },
+      {
+        "id": "reactflow__edge-d9c69588-0176-472f-9b79-516ad379a07b-775e3465-f94d-4ee6-a787-701aeac4bce9",
+        "source": "d9c69588-0176-472f-9b79-516ad379a07b",
+        "target": "775e3465-f94d-4ee6-a787-701aeac4bce9",
+        "sourceHandle": null,
+        "targetHandle": null,
+        "arrowHeadType": "arrowclosed"
+      },
+      {
+        "id": "775e3465-f94d-4ee6-a787-701aeac4bce9",
+        "data": {
+          "label": null,
+          "widgetId": "6152ccefc01f0c1eb6deedb8",
+          "draggable": true,
+          "widgetName": "SELPHID_WIDGET",
+          "configuration": {
+            "general": {
+              "output": [
+                {
+                  "key": "detail.extractionData.address",
+                  "title": "Address"
+                },
+                {
+                  "key": "detail.extractionData.dateOfBirth",
+                  "title": "Date of birth"
+                },
+                {
+                  "key": "detail.extractionData.dateOfExpiry",
+                  "title": "Date of expiry"
+                },
+                {
+                  "key": "detail.extractionData.documentCountryIssuer",
+                  "title": "Document country"
+                },
+                {
+                  "key": "detail.extractionData.documentId",
+                  "title": "Document ID"
+                },
+                {
+                  "key": "detail.extractionData.documentNumber",
+                  "title": "Document number"
+                },
+                {
+                  "key": "detail.extractionData.firstName",
+                  "title": "First name"
+                },
+                {
+                  "key": "detail.extractionData.lastName",
+                  "title": "Last name"
+                },
+                {
+                  "key": "detail.extractionData.gender",
+                  "title": "Gender"
+                },
+                {
+                  "key": "detail.extractionData.nationality",
+                  "title": "Nationality"
+                },
+                {
+                  "key": "detail.extractionData.placeOfBirth",
+                  "title": "Place of birth"
+                }
+              ],
+              "country": "",
+              "timeout": 10000,
+              "logImages": true,
+              "initialTip": true,
+              "imageFormat": "image/jpg",
+              "documentMode": 2,
+              "allowUncertain": false,
+              "chooseDocument": false,
+              "forceLandscape": false,
+              "previewCapture": false,
+              "excludeCountries": "",
+              "allowUnknownDocuments": false
+            }
+          }
+        },
+        "position": {
+          "x": 1023.9999999999999,
+          "y": 203
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left"
+      },
+      {
+        "id": "reactflow__edge-775e3465-f94d-4ee6-a787-701aeac4bce9-f28922be-fc0c-443f-ba96-073f0dbfcde2",
+        "source": "775e3465-f94d-4ee6-a787-701aeac4bce9",
+        "target": "f28922be-fc0c-443f-ba96-073f0dbfcde2",
+        "sourceHandle": null,
+        "targetHandle": null,
+        "arrowHeadType": "arrowclosed"
+      },
+      {
+        "id": "f28922be-fc0c-443f-ba96-073f0dbfcde2",
+        "data": {
+          "label": null,
+          "widgetId": "6152cce0c01f0c1eb6deedb7",
+          "draggable": true,
+          "widgetName": "SELPHI_WIDGET",
+          "configuration": {
+            "general": {
+              "output": [],
+              "showLog": false,
+              "liveness": true,
+              "tutorial": false,
+              "logImages": true,
+              "imageFormat": "image/jpeg",
+              "interactible": true
+            }
+          }
+        },
+        "position": {
+          "x": 1023.9999999999999,
+          "y": 203
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left"
+      },
+      {
+        "id": "reactflow__edge-f28922be-fc0c-443f-ba96-073f0dbfcde2-2180cdc3-14d3-4e00-9245-63ddcedb5927",
+        "source": "f28922be-fc0c-443f-ba96-073f0dbfcde2",
+        "target": "2180cdc3-14d3-4e00-9245-63ddcedb5927",
+        "sourceHandle": null,
+        "targetHandle": null,
+        "arrowHeadType": "arrowclosed"
+      },
+      {
+        "id": "2180cdc3-14d3-4e00-9245-63ddcedb5927",
+        "data": {
+          "label": null,
+          "widgetId": "6152fab3c01f0c1eb6deedd3",
+          "draggable": true,
+          "widgetName": "RESULTS",
+          "configuration": {
+            "general": {
+              "output": null
+            }
+          }
+        },
+        "position": {
+          "x": 1023.9999999999999,
+          "y": 203
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left"
+      },
+      {
+        "id": "reactflow__edge-2180cdc3-14d3-4e00-9245-63ddcedb5927-1abab5bd-e656-4785-bd27-99efdd2483e3",
+        "source": "2180cdc3-14d3-4e00-9245-63ddcedb5927",
+        "target": "1abab5bd-e656-4785-bd27-99efdd2483e3",
+        "sourceHandle": null,
+        "targetHandle": null,
+        "arrowHeadType": "arrowclosed"
+      },
+      {
+        "id": "1abab5bd-e656-4785-bd27-99efdd2483e3",
+        "data": {
+          "label": null,
+          "widgetId": "6152fafec01f0c1eb6deedd3",
+          "draggable": true,
+          "widgetName": "FINISH",
+          "configuration": {}
+        },
+        "type": "ActionNode",
+        "position": {
+          "x": 1380,
+          "y": 211
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left"
+      }
+    ],
+    "name": "Onboarding with Results",
+    "created_at": "2024-08-13T15:56:27.01288+00:00",
+    "updated_at": "2024-10-10T08:33:33.360386+00:00",
+    "id": "3da6206c-c2e0-49c3-a255-d206ce1e7b76",
+    "user_id": "8e0966d3-9f0e-4e4f-b784-9bfc802079df",
+    "workflow_id": "ffe613da-1268-4483-be49-ba6eaca2c125"
+  },
+  {
+    "definition": [
+      {
+        "id": "d9c69588-0176-472f-9b79-516ad379a07b",
+        "data": {
+          "label": null,
+          "widgetId": "6152fab3c01f0c1eb6deedd1",
+          "draggable": false,
+          "widgetName": "START",
+          "initialNode": true,
+          "configuration": {}
+        },
+        "type": "ActionNode",
+        "position": {
+          "x": 96,
+          "y": 213.5
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left"
+      },
+      {
+        "id": "reactflow__edge-d9c69588-0176-472f-9b79-516ad379a07b-775e3465-f94d-4ee6-a787-701aeac4bce9",
+        "source": "d9c69588-0176-472f-9b79-516ad379a07b",
+        "target": "775e3465-f94d-4ee6-a787-701aeac4bce9",
+        "sourceHandle": null,
+        "targetHandle": null,
+        "arrowHeadType": "arrowclosed"
+      },
+      {
+        "id": "775e3465-f94d-4ee6-a787-701aeac4bce9",
+        "data": {
+          "label": null,
+          "widgetId": "6152ccefc01f0c1eb6deedb8",
+          "draggable": true,
+          "widgetName": "SELPHID_WIDGET",
+          "configuration": {
+            "general": {
+              "output": [
+                {
+                  "key": "detail.extractionData.address",
+                  "title": "Address"
+                },
+                {
+                  "key": "detail.extractionData.dateOfBirth",
+                  "title": "Date of birth"
+                },
+                {
+                  "key": "detail.extractionData.dateOfExpiry",
+                  "title": "Date of expiry"
+                },
+                {
+                  "key": "detail.extractionData.documentCountryIssuer",
+                  "title": "Document country"
+                },
+                {
+                  "key": "detail.extractionData.documentId",
+                  "title": "Document ID"
+                },
+                {
+                  "key": "detail.extractionData.documentNumber",
+                  "title": "Document number"
+                },
+                {
+                  "key": "detail.extractionData.firstName",
+                  "title": "First name"
+                },
+                {
+                  "key": "detail.extractionData.lastName",
+                  "title": "Last name"
+                },
+                {
+                  "key": "detail.extractionData.gender",
+                  "title": "Gender"
+                },
+                {
+                  "key": "detail.extractionData.nationality",
+                  "title": "Nationality"
+                },
+                {
+                  "key": "detail.extractionData.placeOfBirth",
+                  "title": "Place of birth"
+                }
+              ],
+              "country": "",
+              "logImages": true,
+              "initialTip": false,
+              "imageFormat": "image/jpeg",
+              "documentMode": 2,
+              "allowUncertain": false,
+              "chooseDocument": false,
+              "forceLandscape": false,
+              "previewCapture": false,
+              "excludeCountries": "",
+              "allowUnknownDocuments": false
+            }
+          }
+        },
+        "position": {
+          "x": 1023.9999999999999,
+          "y": 203
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left"
+      },
+      {
+        "id": "reactflow__edge-775e3465-f94d-4ee6-a787-701aeac4bce9-0027f017-f185-42d5-86a2-f08ba07ec808",
+        "source": "775e3465-f94d-4ee6-a787-701aeac4bce9",
+        "target": "0027f017-f185-42d5-86a2-f08ba07ec808",
+        "sourceHandle": null,
+        "targetHandle": null,
+        "arrowHeadType": "arrowclosed"
+      },
+      {
+        "id": "0027f017-f185-42d5-86a2-f08ba07ec808",
+        "data": {
+          "label": null,
+          "widgetId": "6152cce0c01f0c1eb6deedb5",
+          "draggable": true,
+          "widgetName": "RENIEC",
+          "configuration": {
+            "general": {
+              "user": "testuser",
+              "inputs": [
+                {
+                  "key": "detail.extractionData.documentNumber",
+                  "widget": "6152ccefc01f0c1eb6deedb8",
+                  "customKey": "document"
+                }
+              ],
+              "output": [],
+              "k1_token": "250786"
+            }
+          }
+        },
+        "position": {
+          "x": 1023.9999999999999,
+          "y": 203
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left"
+      },
+      {
+        "id": "reactflow__edge-0027f017-f185-42d5-86a2-f08ba07ec808-f28922be-fc0c-443f-ba96-073f0dbfcde2",
+        "source": "0027f017-f185-42d5-86a2-f08ba07ec808",
+        "target": "f28922be-fc0c-443f-ba96-073f0dbfcde2",
+        "sourceHandle": null,
+        "targetHandle": null,
+        "arrowHeadType": "arrowclosed"
+      },
+      {
+        "id": "f28922be-fc0c-443f-ba96-073f0dbfcde2",
+        "data": {
+          "label": null,
+          "widgetId": "6152cce0c01f0c1eb6deedb7",
+          "draggable": true,
+          "widgetName": "SELPHI_WIDGET",
+          "configuration": {
+            "general": {
+              "output": null,
+              "showLog": false,
+              "liveness": true,
+              "tutorial": false,
+              "logImages": true,
+              "imageFormat": "image/jpeg",
+              "interactible": true
+            }
+          }
+        },
+        "position": {
+          "x": 1023.9999999999999,
+          "y": 203
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left"
+      },
+      {
+        "id": "reactflow__edge-f28922be-fc0c-443f-ba96-073f0dbfcde2-2180cdc3-14d3-4e00-9245-63ddcedb5927",
+        "source": "f28922be-fc0c-443f-ba96-073f0dbfcde2",
+        "target": "2180cdc3-14d3-4e00-9245-63ddcedb5927",
+        "sourceHandle": null,
+        "targetHandle": null,
+        "arrowHeadType": "arrowclosed"
+      },
+      {
+        "id": "2180cdc3-14d3-4e00-9245-63ddcedb5927",
+        "data": {
+          "label": null,
+          "widgetId": "6152fab3c01f0c1eb6deedd3",
+          "draggable": true,
+          "widgetName": "RESULTS",
+          "configuration": {
+            "general": {
+              "output": null
+            }
+          }
+        },
+        "position": {
+          "x": 1023.9999999999999,
+          "y": 203
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left"
+      },
+      {
+        "id": "reactflow__edge-2180cdc3-14d3-4e00-9245-63ddcedb5927-1abab5bd-e656-4785-bd27-99efdd2483e3",
+        "source": "2180cdc3-14d3-4e00-9245-63ddcedb5927",
+        "target": "1abab5bd-e656-4785-bd27-99efdd2483e3",
+        "sourceHandle": null,
+        "targetHandle": null,
+        "arrowHeadType": "arrowclosed"
+      },
+      {
+        "id": "1abab5bd-e656-4785-bd27-99efdd2483e3",
+        "data": {
+          "label": null,
+          "widgetId": "6152fafec01f0c1eb6deedd3",
+          "draggable": true,
+          "widgetName": "FINISH",
+          "configuration": {}
+        },
+        "type": "ActionNode",
+        "position": {
+          "x": 1380,
+          "y": 211
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left"
+      }
+    ],
+    "name": "Onboarding with Reniec",
+    "created_at": "2024-08-13T15:54:13.955708+00:00",
+    "updated_at": "2024-10-10T08:37:07.693806+00:00",
+    "id": "99a4130c-f097-4cdc-aa5d-7a8e1af405f8",
+    "user_id": "8e0966d3-9f0e-4e4f-b784-9bfc802079df",
+    "workflow_id": "30d033aa-db93-430a-a37a-b96c8effa468"
+  },
+  {
+    "definition": [
+      {
+        "id": "d9c69588-0176-472f-9b79-516ad379a07b",
+        "data": {
+          "label": null,
+          "widgetId": "6152fab3c01f0c1eb6deedd1",
+          "draggable": false,
+          "widgetName": "START",
+          "initialNode": true,
+          "configuration": {}
+        },
+        "type": "ActionNode",
+        "position": {
+          "x": 96,
+          "y": 213.5
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left"
+      },
+      {
+        "id": "reactflow__edge-d9c69588-0176-472f-9b79-516ad379a07b-0d3d6197-16ce-40fd-9b80-fdc27e7f955a",
+        "source": "d9c69588-0176-472f-9b79-516ad379a07b",
+        "target": "0d3d6197-16ce-40fd-9b80-fdc27e7f955a",
+        "sourceHandle": null,
+        "targetHandle": null,
+        "arrowHeadType": "arrowclosed"
+      },
+      {
+        "id": "0d3d6197-16ce-40fd-9b80-fdc27e7f955a",
+        "data": {
+          "label": null,
+          "widgetId": "6152cce0c01f0c1eb6deedb6",
+          "draggable": true,
+          "widgetName": "FORM_WIDGET",
+          "configuration": {
+            "general": {
+              "output": [
+                {
+                  "key": "fullname1723564266419",
+                  "title": "Full Name"
+                }
+              ],
+              "formData": {
+                "field": [
+                  {
+                    "key": "fullname1723564266419",
+                    "type": "input",
+                    "title": "Full Name",
+                    "output": true,
+                    "hasPattern": false,
+                    "isRequired": false
+                  }
+                ],
+                "title": "QA Form",
+                "button": "Submit"
+              }
+            }
+          }
+        },
+        "position": {
+          "x": 1023.9999999999999,
+          "y": 203
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left"
+      },
+      {
+        "id": "reactflow__edge-0d3d6197-16ce-40fd-9b80-fdc27e7f955a-0027f017-f185-42d5-86a2-f08ba07ec808",
+        "source": "0d3d6197-16ce-40fd-9b80-fdc27e7f955a",
+        "target": "0027f017-f185-42d5-86a2-f08ba07ec808",
+        "sourceHandle": null,
+        "targetHandle": null,
+        "arrowHeadType": "arrowclosed"
+      },
+      {
+        "id": "0027f017-f185-42d5-86a2-f08ba07ec808",
+        "data": {
+          "label": null,
+          "widgetId": "6152cce0c01f0c1eb6deedb5",
+          "draggable": true,
+          "widgetName": "RENIEC",
+          "configuration": {
+            "general": {
+              "user": "1234",
+              "inputs": [
+                {
+                  "key": "fullname1723564266419",
+                  "widget": "6152cce0c01f0c1eb6deedb6",
+                  "customKey": "document"
+                }
+              ],
+              "output": [],
+              "k1_token": "1234"
+            }
+          }
+        },
+        "position": {
+          "x": 1023.9999999999999,
+          "y": 203
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left"
+      },
+      {
+        "id": "reactflow__edge-0027f017-f185-42d5-86a2-f08ba07ec808-f28922be-fc0c-443f-ba96-073f0dbfcde2",
+        "source": "0027f017-f185-42d5-86a2-f08ba07ec808",
+        "target": "f28922be-fc0c-443f-ba96-073f0dbfcde2",
+        "sourceHandle": null,
+        "targetHandle": null,
+        "arrowHeadType": "arrowclosed"
+      },
+      {
+        "id": "f28922be-fc0c-443f-ba96-073f0dbfcde2",
+        "data": {
+          "label": null,
+          "widgetId": "6152cce0c01f0c1eb6deedb7",
+          "draggable": true,
+          "widgetName": "SELPHI_WIDGET",
+          "configuration": {
+            "general": {
+              "output": [],
+              "showLog": false,
+              "liveness": true,
+              "tutorial": false,
+              "logImages": true,
+              "imageFormat": "image/jpeg",
+              "interactible": true
+            }
+          }
+        },
+        "position": {
+          "x": 1023.9999999999999,
+          "y": 203
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left"
+      },
+      {
+        "id": "reactflow__edge-f28922be-fc0c-443f-ba96-073f0dbfcde2-2180cdc3-14d3-4e00-9245-63ddcedb5927",
+        "source": "f28922be-fc0c-443f-ba96-073f0dbfcde2",
+        "target": "2180cdc3-14d3-4e00-9245-63ddcedb5927",
+        "sourceHandle": null,
+        "targetHandle": null,
+        "arrowHeadType": "arrowclosed"
+      },
+      {
+        "id": "2180cdc3-14d3-4e00-9245-63ddcedb5927",
+        "data": {
+          "label": null,
+          "widgetId": "6152fab3c01f0c1eb6deedd3",
+          "draggable": true,
+          "widgetName": "RESULTS",
+          "configuration": {
+            "general": {
+              "output": null
+            }
+          }
+        },
+        "position": {
+          "x": 1023.9999999999999,
+          "y": 203
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left"
+      },
+      {
+        "id": "reactflow__edge-2180cdc3-14d3-4e00-9245-63ddcedb5927-1abab5bd-e656-4785-bd27-99efdd2483e3",
+        "source": "2180cdc3-14d3-4e00-9245-63ddcedb5927",
+        "target": "1abab5bd-e656-4785-bd27-99efdd2483e3",
+        "sourceHandle": null,
+        "targetHandle": null,
+        "arrowHeadType": "arrowclosed"
+      },
+      {
+        "id": "1abab5bd-e656-4785-bd27-99efdd2483e3",
+        "data": {
+          "label": null,
+          "widgetId": "6152fafec01f0c1eb6deedd3",
+          "draggable": true,
+          "widgetName": "FINISH",
+          "configuration": {}
+        },
+        "type": "ActionNode",
+        "position": {
+          "x": 1380,
+          "y": 211
+        },
+        "sourcePosition": "right",
+        "targetPosition": "left"
+      }
+    ],
+    "name": "Form with Reniec",
+    "created_at": "2024-08-13T15:50:59.628612+00:00",
+    "updated_at": "2024-10-10T08:41:55.85478+00:00",
+    "id": "5bf25d0a-5db6-4e1a-98ad-91926f72f267",
+    "user_id": "8e0966d3-9f0e-4e4f-b784-9bfc802079df",
+    "workflow_id": "0521bb20-cd40-4f33-a310-d4005a7f4773"
+  }
+]

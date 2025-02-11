@@ -1,0 +1,71 @@
+{
+  "name": "identity-platform-builder-qa",
+  "packageManager": "yarn@4.6.0",
+  "engines": {
+    "node": ">=20.17.0"
+  },
+  "description": "## QA repo of Builder",
+  "version": "1.0.0",
+  "main": "cypress.config.js",
+  "keywords": [],
+  "author": "Marcelo Costa",
+  "license": "MIT",
+  "scripts": {
+    "clean:screenshots": "rm -R -f cypress/screenshots && mkdir cypress/screenshots",
+    "precy": "rm -R -f cypress/reports/*",
+    "cy": "cypress run",
+    "co": "cypress open > /dev/null 2>&1",
+    "test": "cypress run --browser chrome --headed",
+    "cy:cache:list": "cypress cache list --size",
+    "cy:cache:prune": "yarn run cypress cache prune",
+    "test:report": "yarn test:run && mochawesome-report-generator cypress/reports/mochawesome.json -f index -o cypress/reports && open cypress/reports/index.html",
+    "repeat-tests": "node scripts/repeat_test.js",
+    "test:run": "cypress run --browser chrome --headed --reporter cypress-mochawesome-reporter && yarn mochawesome-merge cypress/reports/.jsons/*.json > cypress/reports/mochawesome.json",
+    "cy-run-spec": "cypress run --spec 'cypress/e2e/cucumber/01 Builder and Landing Basic Functionalities/Builder and Landing Basic Functionalities.feature'",
+    "cy-tag": "yarn test --env tags='@grep1'",
+    "act": "act -W .github/workflows/test-parallel.yml"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.8",
+    "@badeball/cypress-cucumber-preprocessor": "^22.0.1",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.4",
+    "@faker-js/faker": "^9.4.0",
+    "@types/node": "^22.13.1",
+    "braces": "3.0.3",
+    "cypress": "14.0.2",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-high-resolution": "^1.0.0",
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "cypress-plugin-last-failed": "^2.0.3",
+    "cypress-shadow-dom": "^1.4.1",
+    "esbuild": "^0.25.0",
+    "eslint": "^8.0.1",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-cucumber": "^2.0.0",
+    "eslint-plugin-cypress": "^2.15.1",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "eslint-plugin-promise": "^6.0.0",
+    "fs-extra": "^11.3.0",
+    "glob": "^11.0.1",
+    "mocha": "^11.1.0",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^5.0.0",
+    "mochawesome-report-generator": "^6.2.0",
+    "prettier": "^3.5.0",
+    "rimraf": "^6.0.1",
+    "uuidv4": "^6.2.13"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "stepDefinitions": [
+      "cypress/e2e/cucumber/**/*.js",
+      "cypress/e2e/cucumber/shared/*.js"
+    ],
+    "filterSpecs": true,
+    "omitFiltered": true
+  },
+  "repository": "https://github.com/facephi/identity-platform-builder-qa.git"
+}

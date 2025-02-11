@@ -1,0 +1,9 @@
+{
+  "name": "test-landing-page",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "test:get": "k6 run performance_tests/get-requests.js",
+    "test:stress": "k6 run signup-stress.js && open reports/result.html"
+  }
+}
