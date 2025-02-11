@@ -1,0 +1,74 @@
+name: E2E Regression Test (Docker)
+
+on:
+  workflow_dispatch:
+  # pull_request:
+  #   branches:
+  #     - master
+  # push:
+  #   branches:
+  #     - master
+
+concurrency:
+  group: ${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  E2E-Testing:
+    runs-on: ubuntu-22.04
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4.2.0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4.2.0
+        with:
+          node-version-file: '.nvmrc'
+
+      - name: Cache node modules and Cypress cache
+        uses: actions/cache@v4.2.0
+        with:
+          path: |
+            node_modules
+            ~/.cache/Cypress
+          key: ${{ runner.os }}-yarn-${{ hashFiles('yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-yarn-
+
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+        shell: bash
+
+      - name: Build Docker image
+        run: docker build -t kyb-e2e-cypress:${GITHUB_SHA} .
+
+      - name: Run Cypress tests in Docker
+        run: |
+          docker run --rm \
+            -e CYPRESS_API_STAG_URL="${{ secrets.API_STAG_URL }}" \
+            -e CYPRESS_HASURA_ADMIN_SECRET="${{ secrets.HASURA_ADMIN_SECRET }}" \
+            -e CYPRESS_HASURA_CS_STG_URL="${{ secrets.HASURA_CS_STG_URL }}" \
+            -e CYPRESS_HASURA_CS_STG_SECRET="${{ secrets.HASURA_CS_STG_SECRET }}" \
+            -e CYPRESS_LOGIN_USER="${{ secrets.LOGIN_USER }}" \
+            -e CYPRESS_LOGIN_PASSWORD="${{ secrets.LOGIN_PASSWORD }}" \
+            kyb-e2e-cypress:${GITHUB_SHA} \
+            yarn cypress run --browser chrome --headed
+
+      - name: Upload screenshots
+        if: always()
+        uses: actions/upload-artifact@v4.6.0
+        with:
+          name: cypress-screenshots
+          path: cypress/screenshots/
+
+      - name: Deploy to GitHub Pages
+        if: always()
+        uses: peaceiris/actions-gh-pages@v4.0.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: cypress/reports

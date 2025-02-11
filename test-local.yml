@@ -1,0 +1,87 @@
+name: Regression E2E Tests
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+concurrency:
+  group: ${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  E2E-Tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4.2.2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4.2.0
+        with:
+          node-version-file: '.nvmrc'
+
+      - name: Configure Yarn
+        run: |
+          corepack enable
+          corepack prepare yarn@4.6.0 --activate
+          mkdir -p .yarn/cache
+        shell: bash
+
+      - name: Install dependencies
+        run: |
+          yarn install
+        shell: bash
+
+      - name: Cache Yarn and Cypress
+        uses: actions/cache@v4.2.0
+        with:
+          path: |
+            .yarn/cache
+            node_modules
+            ~/.cache/Cypress
+          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-yarn-
+
+      - name: Builder Regression E2E Tests in STG
+        uses: ./.github/actions/testing-cypress
+        with:
+          API_STAG_URL: ${{ secrets.API_STAG_URL }}
+          HASURA_ADMIN_SECRET: ${{ secrets.HASURA_ADMIN_SECRET }}
+          HASURA_CS_STG_URL: ${{ secrets.HASURA_CS_STG_URL }}
+          HASURA_CS_STG_SECRET: ${{ secrets.HASURA_CS_STG_SECRET }}
+          LOGIN_USER: ${{ secrets.LOGIN_USER }}
+          LOGIN_PASSWORD: ${{ secrets.LOGIN_PASSWORD }}
+
+      - name: Upload screenshots
+        if: always()
+        uses: actions/upload-artifact@v4.6.0
+        with:
+          name: cypress-screenshots
+          path: cypress/screenshots/
+
+      - name: Upload videos
+        if: always()
+        uses: actions/upload-artifact@v4.6.0
+        with:
+          name: cypress-videos
+          path: cypress/videos/
+
+      - name: Check report directory
+        run: ls -R cypress/reports
+
+      - name: Deploy to GitHub Pages
+        if: always()
+        uses: peaceiris/actions-gh-pages@v4.0.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: cypress/reports

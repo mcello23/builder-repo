@@ -1,0 +1,102 @@
+name: Nightly E2E Regression Tests
+
+on:
+  workflow_dispatch:
+  # schedule:
+  #   - cron: '30 4 * * 1,2,3,4,5'
+
+permissions:
+  contents: write
+
+jobs:
+  Nightly-E2E-Regression-Tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4.2.0
+        with:
+          node-version-file: '.nvmrc'
+
+      - name: Configure Yarn
+        run: |
+          corepack enable
+          corepack prepare yarn@4.6.0 --activate
+          mkdir -p .yarn/cache
+        shell: bash
+  
+      - name: Cache Yarn and Cypress
+        uses: actions/cache@v4.2.0
+        with:
+          path: |
+            .yarn/cache
+            node_modules
+            ~/.cache/Cypress
+          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-yarn-
+  
+      - name: Install dependencies
+        run: |
+          yarn install --immutable
+
+      - name: Nightly E2E Regression Tests
+        id: cypress-tests
+        uses: ./.github/actions/testing-cypress
+        with:
+          API_STAG_URL: ${{ secrets.API_STAG_URL }}
+          HASURA_ADMIN_SECRET: ${{ secrets.HASURA_ADMIN_SECRET }}
+          HASURA_CS_STG_URL: ${{ secrets.HASURA_CS_STG_URL }}
+          HASURA_CS_STG_SECRET: ${{ secrets.HASURA_CS_STG_SECRET }}
+          LOGIN_USER: ${{ secrets.LOGIN_USER }}
+          LOGIN_PASSWORD: ${{ secrets.LOGIN_PASSWORD }}
+
+      - name: Upload screenshots
+        if: always()
+        uses: actions/upload-artifact@v4.6.0
+        with:
+          name: cypress-screenshots
+          path: cypress/screenshots/
+  
+      - name: Upload videos
+        if: always()
+        uses: actions/upload-artifact@v4.6.0
+        with:
+          name: cypress-videos
+          path: cypress/videos/
+  
+      - name: Check report directory
+        run: ls -R cypress/reports
+  
+      - name: Deploy to GitHub Pages
+        if: always()
+        uses: peaceiris/actions-gh-pages@v4.0.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: cypress/reports
+
+      - name: Send email notification
+        if: always()
+        uses: dawidd6/action-send-mail@v4
+        with:
+          server_address: smtp.gmail.com
+          server_port: 587
+          username: ${{ secrets.SMTP_USERNAME }}
+          password: "${{ secrets.SMTP_PASSWORD }}"
+          subject: Builder E2E Nightly Regression Tests
+          body: |
+            The Builder Nightly Regression E2E Tests were completed.
+
+            Status: ${{ steps.cypress-tests.outcome }}
+
+            View Report: https://facephi.github.io/identity-platform-builder-qa/
+
+            View Workflow: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
+
+            This is an automated message. Do not reply.
+          to: marcelocosta@facephi.com
+          from: E2E Test Notifications

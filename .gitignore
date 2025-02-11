@@ -1,0 +1,26 @@
+.DS_Store
+downloads/
+videos/
+screenshots/
+node_modules/
+cypress/reports/
+cypress/screenshots/
+mochawesome-report/
+mochawesome.json
+cypress.env.json
+test-results/
+scripts/performance_tests/results
+tmpBstackPackages/node_modules
+log
+npm_install_debug.log
+browserstack.json
+.env
+
+# Yarn
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+.yarn/cache

@@ -1,0 +1,42 @@
+name: Cypress Runner
+description: Testing with Cypress
+
+inputs:
+  API_STAG_URL:
+    required: true
+  HASURA_ADMIN_SECRET:
+    required: true
+  HASURA_CS_STG_URL:
+    required: true
+  HASURA_CS_STG_SECRET:
+    required: true
+  LOGIN_USER:
+    required: true
+  LOGIN_PASSWORD:
+    required: true
+
+runs:
+  using: "composite"
+  steps:
+    - name: Setup Node.js
+      uses: actions/setup-node@v4.2.0
+      with:
+        node-version-file: '.nvmrc'
+
+    - name: Enable Corepack
+      shell: bash
+      run: |
+        corepack enable
+        corepack prepare yarn@4.6.0 --activate
+
+    - name: Run Cypress Tests
+      uses: cypress-io/github-action@v6.7.10
+      with:
+        command: |
+          yarn test --env \
+          API_STAG_URL=${{ inputs.API_STAG_URL }},\
+          HASURA_ADMIN_SECRET=${{ inputs.HASURA_ADMIN_SECRET }},\
+          HASURA_CS_STG_URL=${{ inputs.HASURA_CS_STG_URL }},\
+          HASURA_CS_STG_SECRET=${{ inputs.HASURA_CS_STG_SECRET }},\
+          LOGIN_USER=${{ inputs.LOGIN_USER }},\
+          LOGIN_PASSWORD=${{ inputs.LOGIN_PASSWORD }}
